@@ -1,37 +1,14 @@
-/*
- * Globals
- */
-
-/* Links */
-a,
-a:focus,
-a:hover {
-  color: #fff;
-}
-
-/* Custom default button */
-.btn-default,
-.btn-default:hover,
-.btn-default:focus {
-  color: #333;
-  text-shadow: none; /* Prevent inheritence from `body` */
-  background-color: #fff;
-  border: 1px solid #fff;
-}
-
-
-/* Extra markup and styles for table-esque vertical and horizontal centering */
-.site-wrapper {
+.wrapper {
   display: table;
   width: 100%;
   height: 100%; /* For at least Firefox */
   min-height: 100%;
 }
-.site-wrapper-inner {
+.wrapper-inner {
   display: table-cell;
   vertical-align: top;
 }
-.cover-container {
+.container {
   margin-right: auto;
   margin-left: auto;
 }
@@ -40,7 +17,6 @@ a:hover {
 .inner {
   padding: 30px;
 }
-
 
 /*
  * Header
@@ -86,30 +62,6 @@ a:hover {
   }
 }
 
-
-/*
- * Cover
- */
-
-.cover {
-  padding: 0 20px;
-}
-.cover .btn-lg {
-  padding: 10px 20px;
-  font-weight: bold;
-}
-
-
-/*
- * Footer
- */
-
-.mastfoot {
-  color: #999; /* IE8 proofing */
-  color: rgba(255,255,255,.5);
-}
-
-
 /*
  * Affix and center
  */
@@ -125,13 +77,13 @@ a:hover {
     bottom: 0;
   }
   /* Start the vertical centering */
-  .site-wrapper-inner {
+  .wrapper-inner {
     vertical-align: middle;
   }
   /* Handle the widths */
   .masthead,
   .mastfoot,
-  .cover-container {
+  .container {
     width: 100%; /* Must be percentage or pixels for horizontal alignment */
   }
 }
@@ -139,7 +91,7 @@ a:hover {
 @media (min-width: 992px) {
   .masthead,
   .mastfoot,
-  .cover-container {
+  .container {
     width: 700px;
   }
 }

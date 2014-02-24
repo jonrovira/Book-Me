@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -11,31 +10,27 @@
 
     <title>Book Me</title>
 
-    <!-- Bootstrap core CSS -->
+    <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="css/cover.css" rel="stylesheet">
+    <link href="css/itemPage.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
 
-    <!-- Just for debugging purposes. Don't actually copy this line! -->
-    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
-
   <body>
+    <div class="wrapper">
 
-    <div class="site-wrapper">
+      <div class="wrapper-inner">
 
-      <div class="site-wrapper-inner">
-
-        <div class="cover-container">
-
+        <div class="container">
+        
           <div class="masthead clearfix">
             <div class="inner">
               <h3 class="masthead-brand">Book Me</h3>
@@ -56,28 +51,16 @@
             </div>
           </div>
 
-          <div class="inner cover">
-            <h1 class="cover-heading">Book Me</h1>
-            <p class="lead">We make buying and selling your textbooks quick and easy.</p>
-            <p class="lead">
-              <a href="#" class="btn btn-lg btn-default">Buy</a>
-              <a href="#" class="btn btn-lg btn-default">Sell</a>
-            </p>
-          </div>
-
           <div class="mastfoot">
             <div class="inner">
               <!--<p>Cover template for <a href="http://getbootstrap.com">Bootstrap</a>, by <a href="https://twitter.com/mdo">@mdo</a>.</p>-->
             </div>
           </div>
-
         </div>
-
       </div>
-
     </div>
 
-    <!-- Placed at the end of the document so the pages load faster -->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
   </body>
