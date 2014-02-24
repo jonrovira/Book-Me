@@ -1,3 +1,104 @@
+#content {
+  padding-left: 250px;
+}
+
+/*
+ * Sidebar
+ */
+
+ #sidebar-wrapper {
+  margin-left: -250px;
+  left: 250px;
+  width: 250px;
+  background: #eee;
+  position: fixed;
+  height: 100%;
+  overflow-y: auto;
+  z-index: 1000;
+  transition: all 0.4s ease 0s;
+}
+.sidebar-nav {
+  position: absolute;
+  top: 0;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar-nav li {
+  line-height: 40px;
+  text-indent: 20px;
+}
+
+.sidebar-nav li p {
+  margin-bottom: 0;
+  color: #555;
+  display: block;
+  text-decoration: none;
+}
+
+.sidebar-nav > .sidebar-brand {
+  margin-top: 30px;
+  height: 65px;
+  line-height: 60px;
+  font-size: 18px;
+}
+
+.sidebar-nav > .sidebar-brand h4 {
+  color: #444;
+  font-size: 23px;
+}
+
+.slider {
+  margin-left: 25px;
+}
+
+.sidebar-nav li span {
+  display: block;
+  border: none;
+}
+
+.sidebar-nav li span p {
+  display: inline-block;
+  font-size: 11px;
+}
+
+@media (max-width:767px) {
+
+#content {
+  padding-left: 0;
+}
+
+#sidebar-wrapper {
+  left: 0;
+}
+
+#wrapper.active {
+  position: relative;
+  left: 250px;
+}
+
+#wrapper.active #sidebar-wrapper {
+  left: 250px;
+  width: 250px;
+  transition: all 0.4s ease 0s;
+}
+
+#menu-toggle {
+  display: inline-block;
+}
+
+.inset {
+  padding: 15px;
+}
+
+}
+
+
+/*
+ * Content
+ */
+
 #book-image, #book-title-info {
   display: inline-block;
 }
@@ -14,6 +115,15 @@
   height: 310px;
   margin-top: 20px;
   margin-left: 50px;
+}
+
+#book-title-info h2, h5 {
+  display: inline-block;
+}
+
+#book-title-info h5{
+  margin-left: 5px;
+  font-size: 15px;
 }
 
 #seller-list {

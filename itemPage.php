@@ -5,13 +5,14 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta name="description" content="Book Me provides Northwestern students with a quick and easy way to buy and sell textbooks from fellow students and compare prices with online vendors">
-		<meta name="autor" content="Jon Rovira, William Chou, Christina Kim, Divir Gupta">
+		<meta name="author" content="Jon Rovira, William Chou, Christina Kim, Divir Gupta">
 		<link rel="shortcut icon" href="images/favicon.ico"> <!--MAKE THIS-->
 
 		<title>Book Me</title>
 
 		<link href="css/bootstrap.min.css" rel="stylesheet">
 		<link href="css/global.css" rel="stylesheet">
+		<link href="css/slider.css" rel="stylesheet">
 		<link href="css/itemPage.css" rel="stylesheet">
 		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 	    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -27,12 +28,38 @@
 
 				<?php include 'header.html'; ?>
 
+				<div id="sidebar-wrapper">
+		            <ul class="sidebar-nav">
+		                <li class="sidebar-brand">
+		                	<h4 href="#">Filters</h4>
+		                </li>
+		                <li>
+		                	<p href="#">Price Ceiling</p>
+		                	<input type="text" id="price-slider" class="span2" value="" data-slider-min="0" data-slider-max="300" data-slider-step="1" data-slider-value="150" data-slider-orientation="horizontal" data-slider-selection="after" data-slider-tooltip="show">
+		                </li>
+		                <li>
+		                	<p href="#">Textbook Type</p>
+		                	<span class="input-group-addon"><input type="checkbox"><p>Hardcover</p></span>
+		                	<span class="input-group-addon"><input type="checkbox"><p>Paperback</p></span>
+		                	<span class="input-group-addon"><input type="checkbox"><p>Loose-leaf</p></span>
+		                </li>
+		                <li>
+		                	<p href="#">Condition</p>
+		                	<span class="input-group-addon"><input type="checkbox"><p>Used - Poor</p></span>
+		                	<span class="input-group-addon"><input type="checkbox"><p>Used - Good</p></span>
+		                	<span class="input-group-addon"><input type="checkbox"><p>Used - Like New</p></span>
+		                	<span class="input-group-addon"><input type="checkbox"><p>New</p></span>
+		                </li>
+		            </ul>
+		        </div>
+
 				<div id="content">
 					<div id="book-image">
 						<img src="images/How-To-Program.jpg" />
 					</div>
 					<div id="book-title-info">
 						<h2>C++ How to Program</h2>
+						<h5>5th edition</h5>
 						<h4>Paul Dietel</h4>
 					</div>
 					<div id="seller-list" class="panel panel-default">
@@ -56,7 +83,7 @@
 							</tr>
 							<tr>
 								<td>$105</td>
-								<td>Used</td>
+								<td>Used - Like New</td>
 								<td>Sally S.</td>
 								<td><h3 class="btn">Message</h3></td>
 							</tr>
@@ -68,6 +95,8 @@
 		
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     	<script src="js/bootstrap.min.js"></script>
+    	<script src="js/bootstrap-slider.js"></script>
+    	<script src="js/itemPage.js"></script>
 	</body>
 
 </html>

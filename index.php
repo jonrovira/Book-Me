@@ -5,7 +5,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta name="description" content="Book Me provides Northwestern students with a quick and easy way to buy and sell textbooks from fellow students and compare prices with online vendors">
-		<meta name="autor" content="Jon Rovira, William Chou, Christina Kim, Divir Gupta">
+		<meta name="author" content="Jon Rovira, William Chou, Christina Kim, Divir Gupta">
 		<link rel="shortcut icon" href="images/favicon.ico"> <!--MAKE THIS-->
 
 		<title>Book Me</title>
@@ -26,7 +26,7 @@
 			<div id="container">
 
 				<?php include 'header.html'; ?>
-				
+
 			</div>
 		</div>
 		
