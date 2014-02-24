@@ -11,7 +11,7 @@
   left: 250px;
   width: 250px;
   background: #eee;
-  position: fixed;
+  position: absolute;
   height: 100%;
   overflow-y: auto;
   z-index: 1000;
