@@ -1,97 +1,46 @@
-.wrapper {
-  display: table;
-  width: 100%;
-  height: 100%; /* For at least Firefox */
-  min-height: 100%;
-}
-.wrapper-inner {
-  display: table-cell;
-  vertical-align: top;
-}
-.container {
-  margin-right: auto;
-  margin-left: auto;
-}
-
-/* Padding for spacing */
-.inner {
-  padding: 30px;
-}
-
-/*
- * Header
- */
-.masthead-brand {
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-
-.masthead-nav > li {
+#book-image, #book-title-info {
   display: inline-block;
 }
-.masthead-nav > li + li {
-  margin-left: 20px;
+
+#book-image {
+  float: left;
+  margin-top: 30px;
+  margin-left: 40px;
+  width: 230px;
+  height: 300px;
+  border: 1px solid #555;
 }
-.masthead-nav > li > a {
-  padding-right: 0;
-  padding-left: 0;
-  font-size: 16px;
+
+#book-title-info {
+  height: 310px;
+  margin-top: 20px;
+  margin-left: 50px;
+}
+
+#seller-list {
+  width: 100%;
+  margin-top: 40px;
+  padding-bottom: 40px;
+  border: none;
+}
+
+#seller-list table {
+  width: 800px;
+  margin: 0 auto;
+}
+
+#seller-list table td {
+  font-size: 20px;
+}
+
+#categories {
   font-weight: bold;
-  color: #fff; /* IE8 proofing */
-  color: rgba(255,255,255,.75);
-  border-bottom: 2px solid transparent;
-}
-.masthead-nav > li > a:hover,
-.masthead-nav > li > a:focus {
-  background-color: transparent;
-  border-bottom-color: rgba(255,255,255,.25);
-}
-.masthead-nav > .active > a,
-.masthead-nav > .active > a:hover,
-.masthead-nav > .active > a:focus {
-  color: #fff;
-  border-bottom-color: #fff;
 }
 
-@media (min-width: 768px) {
-  .masthead-brand {
-    float: left;
-  }
-  .masthead-nav {
-    float: right;
-  }
-}
-
-/*
- * Affix and center
- */
-
-@media (min-width: 768px) {
-  /* Pull out the header and footer */
-  .masthead {
-    position: fixed;
-    top: 0;
-  }
-  .mastfoot {
-    position: fixed;
-    bottom: 0;
-  }
-  /* Start the vertical centering */
-  .wrapper-inner {
-    vertical-align: middle;
-  }
-  /* Handle the widths */
-  .masthead,
-  .mastfoot,
-  .container {
-    width: 100%; /* Must be percentage or pixels for horizontal alignment */
-  }
-}
-
-@media (min-width: 992px) {
-  .masthead,
-  .mastfoot,
-  .container {
-    width: 700px;
-  }
+#seller-list .btn {
+  margin-top: 0;
+  padding: 5px;
+  background-color: #428bca;
+  color: #ffffff;
+  font-size: 15px;
 }

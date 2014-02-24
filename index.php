@@ -33,7 +33,7 @@
 							<li><a href="#">Buy</a></li>
 							<li><a href="#">Sell</a></li>
 						</ul>
-						<div class="col-sm-6 col-md-8 pull-right">
+						<div class="col-sm-8 col-md-9 pull-right">
 							<form class="navbar-form" role="search">
 								<div class="input-group">
 									<input type="text" class="form-control" placeholder="Search by book title, author, or class number" name="srch-term" id="srch-term">
@@ -45,11 +45,11 @@
 						</div>
 					</div>
 				</div>
-
-
 			</div>
 		</div>
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    	<script src="js/bootstrap.min.js"></script>
 	</body>
-
 
 </html>

@@ -5,6 +5,7 @@
 html, body {
   height: 100%;
   font-family: Helvetica, sans-serif;
+  color: #444;
 }
 a:hover, a:focus {
 	text-decoration: none;
@@ -14,11 +15,12 @@ a:hover, a:focus {
 	width: 100%;
 	height: 100%;
 	min-height: 100%;
-	background-color: #47C8FF;
+	background-color: #3DB6FF;
 }
 
 #container {
 	margin: 0 auto;
+	height: 100%;
 }
 
 @media (min-width: 768px) { /* Pull out the header and footer */
@@ -35,12 +37,12 @@ a:hover, a:focus {
 #navbar {
 	background-color: #ffffff;
 	padding-bottom: 20px;
+	z-index: 10;
 }
 #navbar-inner {
 	padding: 30px;
 	text-align: center;
 	margin: 0 auto;
-	color: #555;
 }
 #navbar-inner h3 {
 	margin-top: 8px;
@@ -56,14 +58,12 @@ a:hover, a:focus {
 #navbar-inner ul > li > a {
   padding-right: 0;
   padding-left: 0;
-  font-size: 17px;
-  font-weight: bold;
+  font-size: 15px;
   color: #555;
 }
 
 @media (min-width: 768px) {
   #navbar {
-    position: fixed;
     top: 0;
     width: 100%;
     vertical-align: middle;
@@ -81,3 +81,38 @@ a:hover, a:focus {
   	width: 950px;
   }
 }
+
+@media (min-width: 1300px) {
+  #navbar-inner {
+  	width: 1200px;
+  }
+}
+
+
+/*
+ * Navbar
+ */
+
+ #content {
+  background-color: #ffffff;
+}
+
+@media (min-width: 768px) {
+  #content {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 992px) {
+  #content {
+    width: 950px;
+  }
+}
+
+@media (min-width: 1300px) {
+  #content {
+    width: 1200px;
+  }
+}
+
