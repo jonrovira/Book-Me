@@ -25,26 +25,7 @@
 		<div id="wrapper">
 			<div id="container">
 
-				<!--Navbar-->
-				<div id="navbar" class="clearfix">
-					<div id="navbar-inner">
-						<h3>Book Me</h3>
-						<ul class="nav">
-							<li><a href="#">Buy</a></li>
-							<li><a href="#">Sell</a></li>
-						</ul>
-						<div class="col-sm-8 col-md-9 pull-right">
-							<form class="navbar-form" role="search">
-								<div class="input-group">
-									<input type="text" class="form-control" placeholder="Search by book title, author, or class number" name="srch-term" id="srch-term">
-									<div class="input-group-btn">
-										<button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button>
-									</div>
-								</div>
-							</form>
-						</div>
-					</div>
-				</div>
+				<?php include 'header.html'; ?>
 
 				<div id="content">
 					<div id="book-image">

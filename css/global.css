@@ -48,6 +48,7 @@ a:hover, a:focus {
 	margin-top: 8px;
 	margin-bottom: 8px;
 	font-size: 30px;
+	color: #444;
 }
 #navbar-inner ul > li {
   display: inline-block;
@@ -60,6 +61,9 @@ a:hover, a:focus {
   padding-left: 0;
   font-size: 15px;
   color: #555;
+}
+#navbar-inner h4 {
+	float: right;
 }
 
 @media (min-width: 768px) {
@@ -78,15 +82,15 @@ a:hover, a:focus {
 
 @media (min-width: 992px) {
   #navbar-inner {
-  	width: 950px;
+  	width: 95%;
   }
 }
 
-@media (min-width: 1300px) {
+/*@media (min-width: 1300px) {
   #navbar-inner {
   	width: 1200px;
   }
-}
+}*/
 
 
 /*
@@ -95,24 +99,13 @@ a:hover, a:focus {
 
  #content {
   background-color: #ffffff;
+  height: 100%;
 }
 
 @media (min-width: 768px) {
   #content {
     width: 100%;
     margin: 0 auto;
-  }
-}
-
-@media (min-width: 992px) {
-  #content {
-    width: 950px;
-  }
-}
-
-@media (min-width: 1300px) {
-  #content {
-    width: 1200px;
   }
 }
 
