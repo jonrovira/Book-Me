@@ -48,7 +48,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b271e7', end
 	z-index: 10;
 }
 #navbar-inner {
-	padding: 30px;
+	padding-top: 30px;
+	padding-right: 30px;
+	padding-bottom: 20px;
+	padding-left: 30px;
 	text-align: center;
 	margin: 0 auto;
 }
