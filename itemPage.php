@@ -40,16 +40,16 @@
 		                </li>
 		                <li>
 		                	<p href="#">Textbook Type</p>
-		                	<span class="input-group-addon"><input type="checkbox"><p>Hardcover</p></span>
-		                	<span class="input-group-addon"><input type="checkbox"><p>Paperback</p></span>
-		                	<span class="input-group-addon"><input type="checkbox"><p>Loose-leaf</p></span>
+		                	<span class="input-group-addon"><input type="checkbox" checked><p>Hardcover</p></span>
+		                	<span class="input-group-addon"><input type="checkbox" checked><p>Paperback</p></span>
+		                	<span class="input-group-addon"><input type="checkbox" checked><p>Loose-leaf</p></span>
 		                </li>
 		                <li>
 		                	<p href="#">Condition</p>
-		                	<span class="input-group-addon"><input type="checkbox"><p>Used - Poor</p></span>
-		                	<span class="input-group-addon"><input type="checkbox"><p>Used - Good</p></span>
-		                	<span class="input-group-addon"><input type="checkbox"><p>Used - Like New</p></span>
-		                	<span class="input-group-addon"><input type="checkbox"><p>New</p></span>
+		                	<span class="input-group-addon"><input type="checkbox" checked><p>Used - Poor</p></span>
+		                	<span class="input-group-addon"><input type="checkbox" checked><p>Used - Good</p></span>
+		                	<span class="input-group-addon"><input type="checkbox" checked><p>Used - Like New</p></span>
+		                	<span class="input-group-addon"><input type="checkbox" checked><p>New</p></span>
 		                </li>
 		            </ul>
 		        </div>
