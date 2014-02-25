@@ -70,14 +70,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b271e7', end
   padding-right: 0;
   padding-left: 0;
   font-size: 15px;
-  color: #555;
+  color: #444;
 }
 #navbar ul > li > a:hover, #navbar ul > li > a:focus {
   text-decoration: none;
   background-color: transparent;
 }
-#navbar-inner h4 {
-	float: right;
+.navbar-form .input-group input, .navbar-form .input-group .input-group-btn .btn {
+	border-color: #aaa;
 }
 
 @media (min-width: 768px) {
