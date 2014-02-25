@@ -6,7 +6,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta name="description" content="Book Me provides Northwestern students with a quick and easy way to buy and sell textbooks from fellow students and compare prices with online vendors">
 		<meta name="author" content="Jon Rovira, William Chou, Christina Kim, Divir Gupta">
-		<link rel="shortcut icon" href="images/favicon.ico"> <!--MAKE THIS-->
+		<link rel="shortcut icon" href="images/Book-Me-Logo.png">
 
 		<title>Book Me</title>
 
