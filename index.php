@@ -4,11 +4,11 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta name="description" content="Book Me provides Northwestern students with a quick and easy way to buy and sell textbooks from fellow students and compare prices with online vendors">
+		<meta name="description" content="Textbook Exchange provides Northwestern students with a quick and easy way to buy and sell textbooks from fellow students and compare prices with online vendors">
 		<meta name="author" content="Jon Rovira, William Chou, Christina Kim, Divir Gupta">
-		<link rel="shortcut icon" href="images/Book-Me-Logo.png">
+		<link rel="shortcut icon" href="images/Textbook-Xchange-Favicon.png">
 
-		<title>Book Me</title>
+		<title>Textbook Exchange</title>
 
 		<link href="css/bootstrap.min.css" rel="stylesheet">
 		<link href="css/global.css" rel="stylesheet">
