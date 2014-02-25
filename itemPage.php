@@ -31,11 +31,12 @@
 				<div id="sidebar-wrapper">
 		            <ul class="sidebar-nav">
 		                <li class="sidebar-brand">
-		                	<h4 href="#">Filters</h4>
+		                	<h4 href="#">Narrow your results</h4>
 		                </li>
 		                <li>
 		                	<p href="#">Price Ceiling</p>
-		                	<input type="text" id="price-slider" class="span2" value="" data-slider-min="0" data-slider-max="300" data-slider-step="1" data-slider-value="150" data-slider-orientation="horizontal" data-slider-selection="after" data-slider-tooltip="show">
+		                	<input type="text" id="price-slider" class="span2" value="" data-slider-min="0" data-slider-max="300" data-slider-step="5" data-slider-value="300" data-slider-orientation="horizontal" data-slider-selection="after" data-slider-tooltip="hide">
+		                	<input type="text" id="price-bar">
 		                </li>
 		                <li>
 		                	<p href="#">Textbook Type</p>
@@ -79,12 +80,24 @@
 								<td>$100</td>
 								<td>New</td>
 								<td>Amazon</td>
-								<td><h3 class="btn">Message</h3></td>
+								<td><h3 class="btn">Visit Site</h3></td>
 							</tr>
 							<tr>
 								<td>$105</td>
 								<td>Used - Like New</td>
 								<td>Sally S.</td>
+								<td><h3 class="btn">Message</h3></td>
+							</tr>
+							<tr>
+								<td>$117</td>
+								<td>Used - Like New</td>
+								<td>Jon R.</td>
+								<td><h3 class="btn">Message</h3></td>
+							</tr>
+							<tr>
+								<td>$122</td>
+								<td>New</td>
+								<td>Christina K.</td>
 								<td><h3 class="btn">Message</h3></td>
 							</tr>
 						</table>
