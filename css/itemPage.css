@@ -167,17 +167,17 @@
 }
 
 table tr td:nth-child(1) {
-  width: 160px;
+  width: calc(100% / 4.08);
 }
 table tr td:nth-child(2) {
-  width: 270px;
+  width: calc(100% / 3.28);
 }
 table tr td:nth-child(3) {
-  width: 230px;
+  width: calc(100% / 3.49);
 }
 
 #categories {
-  width: 785px;
+  width: calc(100% - 159px);
   margin-top: 40px;
   margin-right: auto;
   margin-bottom: 0;
@@ -197,8 +197,8 @@ table tr td:nth-child(3) {
 #seller-list {
   margin-left: auto;
   margin-right: auto;
-  width: 800px;
-  height: 247px;
+  width: calc(100% - 160px);
+  height: calc(100% - 372px);
   overflow-y: scroll;
   padding-bottom: 20px;
   border: none;
@@ -219,7 +219,7 @@ table tr td:nth-child(3) {
 }
 
 #seller-list table {
-  width: 785px;
+  width: 100%;
   margin: 0 auto;
   table-layout: fixed;
 }
