@@ -59,17 +59,21 @@
 						<img src="images/How-To-Program.jpg" />
 					</div>
 					<div id="book-title-info">
-						<h2>C++ How to Program</h2>
-						<h5>5th edition</h5>
-						<h4>Paul Dietel</h4>
+						<h2 id="title">C++ How to Program</h2>
+						<h5 id="edition">5th edition</h5>
+						<h4 id="author">Paul Dietel</h4>
+						<h4 id="price-range">Price: $80 - $137	</h4>
 					</div>
-					<div id="seller-list" class="panel panel-default">
-						<table class="table">
-							<tr id="categories">
+					<table id="categories" class="table">
+							<tr>
 								<td>Price <span class="caret"></span></td>
 								<td>Condition <span class="caret"></span></td>
 								<td>Seller <span class="caret"></span></td>
+								<td></td>
 							</tr>
+					</table>
+					<div id="seller-list" class="panel panel-default">
+						<table id="sellers" class="table">
 							<tr>
 								<td>$80</td>
 								<td>Used - Good</td>
@@ -80,7 +84,7 @@
 								<td>$100</td>
 								<td>New</td>
 								<td>Amazon</td>
-								<td><h3 class="btn">Visit Site</h3></td>
+								<td><h3 class="btn amazon">Visit Site</h3></td>
 							</tr>
 							<tr>
 								<td>$105</td>
@@ -99,6 +103,18 @@
 								<td>New</td>
 								<td>Christina K.</td>
 								<td><h3 class="btn">Message</h3></td>
+							</tr>
+							<tr>
+								<td>$130</td>
+								<td>Used - Like New</td>
+								<td>Will C.</td>
+								<td><h3 class="btn">Message</h3></td>
+							</tr>
+							<tr>
+								<td>$137</td>
+								<td>New</td>
+								<td>Amazon</td>
+								<td><h3 class="btn amazon">Visit Site</h3></td>
 							</tr>
 						</table>
 					</div>

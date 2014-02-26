@@ -10,6 +10,7 @@
   margin-left: -250px;
   left: 250px;
   width: 250px;
+  height: calc(100% - 121px) !important;
   background: #ffffff;
   position: absolute;
   height: 100%;
@@ -28,7 +29,7 @@
 
 .sidebar-nav > .sidebar-brand {
   margin-top: 30px;
-  height: 65px;
+  height: 30px;
   line-height: 60px;
   font-size: 18px;
 }
@@ -79,7 +80,7 @@
 }
 
 .slider {
-  margin-left: 25px;
+  margin-left: 21px;
 }
 
 @media (max-width:767px) {
@@ -126,43 +127,109 @@
   float: left;
   margin-top: 30px;
   margin-left: 80px;
-  width: 230px;
-  height: 300px;
+}
+
+#book-image img {
+  width: 171.2px;
+  height: 240px;
 }
 
 #book-title-info {
-  height: 310px;
+  height: 250px;
   margin-top: 20px;
   margin-left: 50px;
 }
 
-#book-title-info h2, h5 {
+#title, #edition {
   display: inline-block;
+  margin-bottom: 5px;
 }
 
-#book-title-info h5{
+#edition {
   margin-left: 5px;
   font-size: 15px;
 }
 
-#seller-list {
-  width: 100%;
-  margin-top: 40px;
-  padding-bottom: 40px;
-  border: none;
+#author {
+  margin-top: 5px;
 }
 
-#seller-list table {
-  width: 800px;
-  margin: 0 auto;
+#price-range {
+  margin-top: 20px;
+  width: 150px;
+  padding: 4px;
+  text-align: center;
+  color: #ffffff;
+  font-size: 15px;
+  border: 1px solid #694489;
+  border-radius: 10px;
+  background-color: #694489;
 }
 
-#seller-list table td {
-  font-size: 20px;
+table tr td:nth-child(1) {
+  width: 160px;
+}
+table tr td:nth-child(2) {
+  width: 270px;
+}
+table tr td:nth-child(3) {
+  width: 230px;
 }
 
 #categories {
+  width: 785px;
+  margin-top: 40px;
+  margin-right: auto;
+  margin-bottom: 0;
+  margin-left: auto;
+}
+
+#categories tr {
   font-weight: bold;
+  border-bottom: 1px solid #ddd;
+}
+
+#categories tr > td {
+  border-top: none;
+}
+
+
+#seller-list {
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+  height: 247px;
+  overflow-y: scroll;
+  padding-bottom: 20px;
+  border: none;
+}
+
+#seller-list::-webkit-scrollbar {
+    width: 12px;
+}
+ 
+#seller-list::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 10px;
+}
+ 
+#seller-list::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+
+#seller-list table {
+  width: 785px;
+  margin: 0 auto;
+  table-layout: fixed;
+}
+
+#seller-list table td {
+  font-size: 15px;
+}
+
+#seller-list table tr .amazon {
+  background-color: #c60;
 }
 
 #seller-list .btn {
