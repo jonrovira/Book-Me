@@ -12,7 +12,7 @@
 
 		<link href="css/bootstrap.min.css" rel="stylesheet">
 		<link href="css/global.css" rel="stylesheet">
-		<link href="css/index2.css" rel="stylesheet">
+		<link href="css/index3.css" rel="stylesheet">
 		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 	    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 	    <!--[if lt IE 9]>
@@ -23,10 +23,14 @@
 
 	<body>
 		<div id="wrapper">
-			<div id="container">
-
-				<?php include 'header2.html'; ?>
-
+			<div class="container">
+					<img src="images/Textbook-Xchange-Logo.png" />
+					<div class="input-group">
+						<input type="text" class="form-control" placeholder="Search by book title, author, or class number" name="srch-term" id="srch-term">
+						<div class="input-group-btn">
+							<button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+						</div>
+					</div>
 			</div>
 		</div>
 		
