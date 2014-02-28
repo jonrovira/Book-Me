@@ -1,12 +1,18 @@
 <div>
 		<form class = "form-horizontal" role = "form">
-      <div class ="form-group">
+      <div id="form-top-message">
+        Please complete the following required fields.
+      </div>
+
+      <!--form for inputting the name -->
+      <div class ="form-group" id="name-form">
         <label for ="inputName" class = "col-sm-1 control-label">Name</label>
         <div class ="col-sm-4">
           <input type ="email" class = "form-control" id="inputName" placeholder="Name">
         </div>
       </div>
-      <div class = "btn-group">
+      <!-- dropdown button for selecting department-->
+      <div class = "btn-group" id="department-dropdown">
         <button type = "button" class = "btn btn-default dropdown-toggle" data-toggle="dropdown">
           Department <span class = "caret"> </span>
         </button>
@@ -18,7 +24,8 @@
           <li><a href = "#">EECS </a></li>
         </ul>
       </div>
-      <div class = "btn-group">
+      <!-- dropdown button for selecting class number --> 
+      <div class = "btn-group" id="class-number-dropdown">
         <button type = "button" class = "btn btn-default dropdown-toggle" data-toggle="dropdown">
           Class Number <span class = "caret"> </span>
         </button>
@@ -31,31 +38,32 @@
         </ul>
       </div>
 
-
-      <div class ="form-group">
+      <!-- form for inputting the book title--> 
+      <div class ="form-group" id="book-title-form">
         <label for ="inputTitle" class = "col-sm-1 control-label">Book Title</label>
         <div class ="col-sm-2">
           <input type ="email" class = "form-control" id="inputTitle" placeholder="Title">
         </div>
       </div>
 
-
-      <div class ="form-group">
+      <!-- form for inputting the author--> 
+      <div class ="form-group" id="author-form">
         <label for ="inputAuthor" class = "col-sm-1 control-label">Author</label>
         <div class ="col-sm-2">
           <input type ="email" class = "form-control" id="inputAuthor" placeholder="Author">
         </div>
       </div>
 
-
-      <div class ="form-group">
+      <!-- form for inputting the price--> 
+      <div class ="form-group" id="price-form">
         <label for ="inputPrice" class = "col-sm-1 control-label">Price</label>
         <div class ="col-sm-2">
           <input type ="email" class = "form-control" id="inputPrice" placeholder="Price">
         </div>
       </div>
 
-      <div class = "btn-group">
+      <!-- condition of book dropdown button-->
+      <div class = "btn-group" id="condition-dropdown">
         <button type = "button" class = "btn btn-default dropdown-toggle" data-toggle="dropdown">
           Condition <span class = "caret"> </span>
         </button>
@@ -67,13 +75,13 @@
         </ul>
       </div>
 
-      <div class ="form-group">
+      <div class ="form-group" id="edition-form">
         <label for ="inputEdition" class = "col-sm-1 control-label">Edition</label>
         <div class ="col-sm-2">
           <input type ="email" class = "form-control" id="inputEdition" placeholder="Edition">
         </div>
       </div>
 
-      <button type="button" class="btn btn-default btn-sm">Submit</button>
+      <button type="button" id="submit-button" class="btn btn-default btn-sm">Submit</button>
 
 </div>

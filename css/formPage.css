@@ -1,0 +1,40 @@
+#wrapper {
+	/*temporarily make background white for easier edit*/
+	background-color: #ffffff;
+}
+
+#name-form {
+	margin-left :20%;
+}
+
+#department-dropdown {
+	margin-left: 35%;
+}
+
+#class-number-dropdown {
+	margin-left: 20%;
+}
+
+#book-title-form {
+	margin-left: 20%;
+}
+
+#author-form {
+	margin-left: 20%;
+}
+
+#price-form {
+	margin-left: 20%;
+}
+
+#condition-dropdown {
+	margin-left: 35%;
+}
+
+#edition-form {
+	margin-left: 20%;
+}
+
+#submit-button {
+	margin-left: 35%;
+}
