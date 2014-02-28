@@ -3,38 +3,53 @@
 	background-color: #ffffff;
 }
 
+#form-top-message {
+	margin-left: 13%;
+	margin-top:15px;
+	margin-bottom: 10px;
+	font-weight: bold;
+	font-style: oblique;
+}
+
 #name-form {
-	margin-left :20%;
+	margin-left :10%;
+	display: block;
 }
 
 #department-dropdown {
-	margin-left: 35%;
+	margin-left: 19%;
+	margin-bottom: 15px;
 }
 
 #class-number-dropdown {
-	margin-left: 20%;
+	margin-bottom: 15px; 
 }
 
 #book-title-form {
-	margin-left: 20%;
+	margin-left: 10%;
+	display: block;
 }
 
 #author-form {
-	margin-left: 20%;
+	margin-left: 10%;
+	display: block;
 }
 
 #price-form {
-	margin-left: 20%;
+	margin-left: 10%;
 }
 
 #condition-dropdown {
-	margin-left: 35%;
+	margin-left: 19%;
+	margin-bottom: 15px; 
+
 }
 
 #edition-form {
-	margin-left: 20%;
+	margin-left: 10%;
 }
 
 #submit-button {
-	margin-left: 35%;
+	margin-left: 22%;
+	font-weight: bold;
 }
