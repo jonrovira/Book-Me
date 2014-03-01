@@ -22,11 +22,18 @@
 	</head>
 
 	<body>
+
+		<?php include 'indexHeader.html'; ?>
+
 		<div id="wrapper">
-			<div id="container">
-
-				<?php include 'header.html'; ?>
-
+			<div class="container">
+					<img src="images/Textbook-Xchange-Logo.png" />
+					<div class="input-group">
+						<input type="text" class="form-control" placeholder="Search by book title, author, or class number" name="srch-term" id="srch-term">
+						<div class="input-group-btn">
+							<button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+						</div>
+					</div>
 			</div>
 		</div>
 		

@@ -2,6 +2,16 @@
 	background-color: #ffffff;
 }
 
+#navbar #navbar-inner .nav #index-sell a {
+	padding: 8px;
+	background-color: #694489;
+	border: 1px solid #694489;
+	border-radius: 10px;
+	border-color: #694489;
+	color: #ffffff;
+	font-size: 13px;
+}
+
 .container {
 	text-align: center;
 	height: 100%;

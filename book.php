@@ -13,7 +13,7 @@
 		<link href="css/bootstrap.min.css" rel="stylesheet">
 		<link href="css/global.css" rel="stylesheet">
 		<link href="css/slider.css" rel="stylesheet">
-		<link href="css/itemPage.css" rel="stylesheet">
+		<link href="css/book.css" rel="stylesheet">
 		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 	    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 	    <!--[if lt IE 9]>
@@ -56,7 +56,7 @@
 
 				<div id="content">
 					<div id="book-image">
-						<img src="images/How-To-Program.jpg" />
+						<a class="thumbnail"><img src="images/How-To-Program.jpg" /></a>
 					</div>
 					<div id="book-title-info">
 						<h2 id="title">C++ How to Program</h2>
@@ -126,7 +126,7 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     	<script src="js/bootstrap.min.js"></script>
     	<script src="js/bootstrap-slider.js"></script>
-    	<script src="js/itemPage.js"></script>
+    	<script src="js/book.js"></script>
 	</body>
 
 </html>

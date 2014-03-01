@@ -39,10 +39,10 @@ a:hover, a:focus {
 	z-index: 10;
 }
 #navbar-inner {
-	padding-top: 30px;
+	padding-top: 17px;
 	padding-right: 30px;
-	padding-bottom: 20px;
-	padding-left: 30px;
+	padding-bottom: 5px;
+	padding-left: 20px;
 	text-align: center;
 	margin: 0 auto;
 }
@@ -106,7 +106,7 @@ a:hover, a:focus {
 
  #content {
   background-color: #ffffff;
-  height: calc(100% - 121px);
+  height: calc(100% - 93px);
 }
 
 @media (min-width: 768px) {
