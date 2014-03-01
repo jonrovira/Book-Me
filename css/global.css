@@ -99,20 +99,3 @@ a:hover, a:focus {
   }
 }
 
-
-/*
- * Content
- */
-
- #content {
-  background-color: #ffffff;
-  height: calc(100% - 93px);
-}
-
-@media (min-width: 768px) {
-  #content {
-    width: 100%;
-    margin: 0 auto;
-  }
-}
-

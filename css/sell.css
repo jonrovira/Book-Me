@@ -2,53 +2,84 @@
 	background-color: #ffffff;
 }
 
-#form-top-message {
+
+/*
+ * Main form
+ */
+.form-horizontal {
 	margin-left: 13%;
-	margin-top:15px;
-	margin-bottom: 10px;
+}
+.form-horizontal .info-block {
+	margin-top: 150px;
+}
+.form-horizontal #you-info {
+	margin-top: 40px;
+}
+.form-horizontal div .info-title {
+	display: inline-block;
+	padding-right: 80px;
+}
+.form-horizontal div .info-title h4 {
+	width: 90px;
+	opacity: 0.5;
+}
+.form-horizontal div .info-section {
+	position: absolute;
+	display: inline-block;
+}
+.form-horizontal div .info-section h4 {
+	width: 560px;
+	line-height: 20px;
+	font-size: 15px;
 	font-weight: bold;
 	font-style: oblique;
 }
-
-#name-form {
-	margin-left :10%;
-	display: block;
+.form-horizontal .form-group {
+	margin-top: 20px;
+	width: 600px;
 }
-
-#department-dropdown {
-	margin-left: 19%;
-	margin-bottom: 15px;
+.form-horizontal .form-group label {
+	width: 120px;
+	color: #694489;
+	text-align: left;
 }
-
-#class-number-dropdown {
-	margin-bottom: 15px; 
+.form-horizontal .form-group .text-field {
+	display: inline-block;
+	width: 400px;
 }
-
-#book-title-form {
-	margin-left: 10%;
-	display: block;
+.form-horizontal .info-section a {
+	padding: 8px;
+	color: #ffffff;
+	background-color: #3B5997;
+	border: 1px solid #3B5997;
 }
-
-#author-form {
-	margin-left: 10%;
-	display: block;
+.form-horizontal .info-section a i {
+	color: #ffffff;
+	padding-right: 7px;
 }
-
-#price-form {
-	margin-left: 10%;
+.form-horizontal .btn-group + .btn-group {
+	margin-left: 15px;
 }
-
-#condition-dropdown {
-	margin-left: 19%;
-	margin-bottom: 15px; 
-
+#submit {
+	margin-top: 360px;
+	margin-left: 170px;
 }
-
-#edition-form {
-	margin-left: 10%;
-}
-
 #submit-button {
-	margin-left: 22%;
 	font-weight: bold;
+	font-size: 15px;
+	background-color: #694489;
+	color: #ffffff;
+}
+
+/*
+ * Modal FB login
+ */
+.modal .modal-dialog .modal-content img {
+	padding-right: 3px;
+	width: 30px;
+	height: 30px;
+}
+
+.modal .modal-dialog .modal-body label {
+	color: #444;
 }

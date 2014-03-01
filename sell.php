@@ -11,6 +11,7 @@
 		<title>Textbook Exchange</title>
 
 		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="plugins/font-awesome/css/font-awesome.min.css">
 		<link href="css/global.css" rel="stylesheet">
 		<link href="css/sell.css" rel="stylesheet">
 		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -24,93 +25,137 @@
 	<body>
 		<div id="wrapper">
 			<div id="container">
+
 				<?php include 'header.html'; ?>
+
 				<div>
-					<form class = "form-horizontal" role = "form">
-				      <div id="form-top-message">
-				        Complete all fields to post a textbook sale. 
-				      </div>
+					<form class="form-horizontal" role="form">
 
-				      <!--form for inputting the name -->
-				      <div class ="form-group" id="name-form">
-				        <label for ="inputName" class = "col-sm-1 control-label"><font color ="#694489">Name</font></label>
-				        <div class ="col-sm-4">
-				          <input type ="email" class = "form-control" id="inputName" placeholder="Name">
-				        </div>
-				      </div>
-				      <!-- dropdown button for selecting department-->
-				      <div class = "btn-group" id="department-dropdown">
-				        <button type = "button" class = "btn btn-default dropdown-toggle" data-toggle="dropdown"><font color ="#694489">
-				          Department </font><span class = "caret"> </span>
-				        </button>
-				        <ul class = "dropdown-menu" role ="menu">
-				          <li><a href = "#"><font color ="#694489">ANTHRO</font></a></li>
-				          <li><a href = "#"><font color ="#694489">BIO </font></a></li>
-				          <li><a href = "#"><font color ="#694489">BME </font></a></li>
-				          <li><a href = "#"><font color ="#694489">CHEM </font></a></li>
-				          <li><a href = "#"><font color ="#694489">EECS </font></a></li>
-				        </ul>
-				      </div>
-				      <!-- dropdown button for selecting class number --> 
-				      <div class = "btn-group" id="class-number-dropdown">
-				        <button type = "button" class = "btn btn-default dropdown-toggle" data-toggle="dropdown"><font color ="#694489">
-				          Class Number </font><span class = "caret"> </span>
-				        </button>
-				        <ul class = "dropdown-menu" role ="menu">
-				          <li><a href = "#"><font color ="#694489">101</font></a></li>
-				          <li><a href = "#"><font color ="#694489">110 </font></a></li>
-				          <li><a href = "#"><font color ="#694489">202 </font></a></li>
-				          <li><a href = "#"><font color ="#694489">211 </font></a></li>
-				          <li><a href = "#"><font color ="#694489">213 </font></a></li>
-				        </ul>
-				      </div>
+						<div class="info-block" id="you-info">
+							<div class="info-title"><h4>You</h4></div>
+							<div class="info-section">
+								<h4>To communicate with buyers, log in using Facebook.</h4>
+								<div class="form-group">
+						        	<label class="col-sm-2 control-label">Facebook</label>
+									<a id="login-modal" data-toggle="modal" data-target=".bs-example-modal-lg" href="#"><i class="fa fa-facebook"></i> Log in</a>
+						      	</div>
+								<div class="form-group">
+						        	<label class="col-sm-2 control-label">Your Name</label>
+						        	<div class="text-field">
+						          		<input type="text" class="form-control" placeholder="Will Chou">
+						        	</div>
+						      	</div>
+						    </div>
+						</div>
 
-				      <!-- form for inputting the book title--> 
-				      <div class ="form-group" id="book-title-form">
-				        <label for ="inputTitle" class = "col-sm-1 control-label"><font color ="#694489">Title</font></label>
-				        <div class ="col-sm-4">
-				          <input type ="email" class = "form-control" id="inputTitle" placeholder="Title">
-				        </div>
-				      </div>
+						<div class="info-block" id="book-info">
+							<div class="info-title"><h4>Textbook</h4></div>
+							<div class="info-section">
+								<h4>Help us advertise your book. Fill in its information below.</h4>
+								<div class="form-group">
+									<label class="col-sm-2 control-label">Course</label>
+									<div class="btn-group">
+							        	<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+							        		Department <span class="caret"></span>
+							        	</button>
+							        	<ul class="dropdown-menu" role="menu">
+							          		<li><a href="#">ANTHRO</a></li>
+							          		<li><a href="#">BIO</a></li>
+							          		<li><a href="#">BME</a></li>
+							          		<li><a href="#">CHEM</a></li>
+							          		<li><a href="#">EECS</a></li>
+							        	</ul>
+							      	</div>
+						      		<div class="btn-group">
+							        	<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+							          		Class Number <span class="caret"></span>
+							        	</button>
+							        	<ul class="dropdown-menu" role="menu">
+							          		<li><a href="#">101</a></li>
+							          		<li><a href="#">110</a></li>
+							          		<li><a href="#">202</a></li>
+							          		<li><a href="#">211</a></li>
+							          		<li><a href="#">213</a></li>
+							        	</ul>
+							      	</div>
+								</div>
+						      	<div class="form-group">
+						        	<label class="col-sm-2 control-label">Title</label>
+						        	<div class="text-field">
+						          		<input type="text" class="form-control" placeholder="C++ How to Program">
+						        	</div>
+						      	</div>
+						      	<div class="form-group">
+						        	<label class="col-sm-2 control-label">Author</label>
+						        	<div class="text-field">
+						          		<input type="text" class="form-control" placeholder="Paul Dietel">
+						        	</div>
+						      	</div>
+						      	<div class="form-group">
+						        	<label class="col-sm-2 control-label">Price</label>
+						        	<div class="text-field">
+						          		<input type="text" class="form-control" placeholder="$100.00">
+						        	</div>
+						      	</div>
+						      	<div class="form-group">
+									<label class="col-sm-2 control-label">Condition</label>
+									<div class="btn-group">
+							        	<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+							          		Choose one <span class="caret"></span>
+							        	</button>
+							        	<ul class="dropdown-menu" role="menu">
+							          		<li><a href="#">New</a></li>
+							          		<li><a href="#">Used - Like New</a></li>
+							          		<li><a href="#">Used - Good Condition</a></li>
+							          		<li><a href="#">Used - Poor Condition</a></li>
+							        	</ul>
+							      	</div>
+								</div>
+						      	<div class="form-group">
+						        	<label class="col-sm-2 control-label">Edition</label>
+						        	<div class="text-field">
+						          		<input type="text" class="form-control" placeholder="3rd">
+						        	</div>
+						      	</div>
+							</div>
+						</div>
 
-				      <!-- form for inputting the author--> 
-				      <div class ="form-group" id="author-form">
-				        <label for ="inputAuthor" class = "col-sm-1 control-label"><font color ="#694489">Author</font></label>
-				        <div class ="col-sm-4">
-				          <input type ="email" class = "form-control" id="inputAuthor" placeholder="Author">
-				        </div>
-				      </div>
+						<div id="submit">
+							<button type="button" id="submit-button" class="btn btn-default btn-sm">Submit</button>
+						</div>
+				    </form>
+				</div>
 
-				      <!-- form for inputting the price--> 
-				      <div class ="form-group" id="price-form">
-				        <label for ="inputPrice" class = "col-sm-1 control-label"><font color ="#694489">Price</font></label>
-				        <div class ="col-sm-4">
-				          <input type ="email" class = "form-control" id="inputPrice" placeholder="Price">
-				        </div>
-				      </div>
-
-				      <!-- condition of book dropdown button-->
-				      <div class = "btn-group" id="condition-dropdown">
-				        <button type = "button" class = "btn btn-default dropdown-toggle" data-toggle="dropdown"><font color ="#694489">
-				          Condition </font><span class = "caret"> </span>
-				        </button>
-				        <ul class = "dropdown-menu" role ="menu">
-				          <li><a href = "#"><font color ="#694489">New</font></a></li>
-				          <li><a href = "#"><font color ="#694489">Used - Like New </font></a></li>
-				          <li><a href = "#"><font color ="#694489">Used - Good Condition  </font></a></li>
-				          <li><a href = "#"><font color ="#694489">Used - Poor Condition</font></a></li>
-				        </ul>
-				      </div>
-
-				      <div class ="form-group" id="edition-form">
-				        <label for ="inputEdition" class = "col-sm-1 control-label"><font color ="#694489">Edition</font></label>
-				        <div class ="col-sm-4">
-				          <input type ="email" class = "form-control" id="inputEdition" placeholder="Edition">
-				        </div>
-				      </div>
-
-				      <button type="button" id="submit-button" class="btn btn-default btn-sm">Submit</button>
-
+				<!-- Modal -->
+				<div class="modal fade bs-example-modal-lg" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+				 	<div class="modal-dialog">
+				    	<div class="modal-content">
+				      		<div class="modal-header">
+				        		<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				        		<h4 class="modal-title"><img src="images/Facebook-logo.png"> Facebook Login</h4>
+				      		</div>
+				      		<div class="modal-body">
+					      		<form class="form-horizontal" role="form">
+						        	<div class="form-group">
+							        	<label class="col-sm-4 control-label">Email</label>
+							        	<div class="col-sm-6">
+							          		<input type="email" class="form-control" placeholder="Name">
+							        	</div>
+						      		</div>
+						      		<div class="form-group">
+							        	<label class="col-sm-4 control-label">Password</label>
+							        	<div class="col-sm-6">
+							          		<input type="email" class="form-control" placeholder="Password">
+							        	</div>
+					      			</div>
+					      		</form>
+				      		</div>
+				      		<div class="modal-footer">
+				        		<button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+				        		<button type="button" class="btn btn-primary">Log In</button>
+				      		</div> 
+				    	</div>
+				  	</div>
 				</div>
 
 			</div>
@@ -118,6 +163,7 @@
 		
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     	<script src="js/bootstrap.min.js"></script>
+    	<script src="js/sell.js"></script>
 	</body>
 
 </html>
