@@ -5,6 +5,7 @@
   <title>Textbook Exchange</title>
   <link rel="shortcut icon" href="images/Textbook-Xchange-Favicon.png">
   <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link href="css/global.css" rel="stylesheet">
   <link rel="stylesheet" href="css/searchResults.css">
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
   <script src="searchResults.js"></script>
@@ -13,6 +14,9 @@
 
 <body>
 <div class="container">
+
+	<?php include 'header.html'; ?>
+
 	<div class="input-group">
 		<input type="text" class="form-control" placeholder="C++">
 		<div class="input-group-btn">
