@@ -1,7 +1,6 @@
-ul 
-{
-	list-style-type: none;
-}
+.container { margin-top: 50px;}
+
+ul { list-style-type: none; }
 
 li
 {
@@ -64,7 +63,4 @@ li img
 	background-color: #694489;
 }
 
-a, a:hover
-{
-	color: inherit;
-}
+a, a:hover { color: inherit; }
