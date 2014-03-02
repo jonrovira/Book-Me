@@ -22,9 +22,6 @@
 	</head>
 
 	<body>
-
-		<?php include 'indexHeader.html'; ?>
-
 		<div id="wrapper">
 			<div class="container">
 					<img src="images/Textbook-Xchange-Logo.png" />
@@ -33,6 +30,12 @@
 						<div class="input-group-btn">
 							<button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button>
 						</div>
+					</div>
+					<div id="sell">
+					    Sell a book
+					    <a href="sell.php">
+					        <span class="link-spanner"></span>
+					    </a>
 					</div>
 			</div>
 		</div>
