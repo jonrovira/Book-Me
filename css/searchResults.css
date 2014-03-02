@@ -1,13 +1,13 @@
-.container { margin-top: 50px;}
+.my-container { margin: 50px 50px;}
 .lead 
 { 
-	margin-top: 15px;
+	margin: 20px 60px;
 	font-size: 14px;
 }
 
-ul { list-style-type: none; }
+.box ul { list-style-type: none; }
 
-li
+.box li
 {
 	height: 450px;
 	width: 245px;
@@ -34,7 +34,7 @@ li
 	transition: box-shadow 0.5s ease;
 }
 
-li img
+.box li img
 {
 	width: 200px;
 	height: 250px;
@@ -68,4 +68,4 @@ li img
 	background-color: #694489;
 }
 
-a, a:hover { color: inherit; }
+.box a, .box a:hover { color: inherit; }

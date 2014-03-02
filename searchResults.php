@@ -13,32 +13,26 @@
 
 
 <body>
-<div class="container">
 
+<div class="my-container">
 	<?php include 'header.html'; ?>
 
-	<div class="input-group">
-		<input type="text" class="form-control" placeholder="C++">
-		<div class="input-group-btn">
-			<button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button>
-		</div>
-	</div>
-
 	<div class="lead"> Showing <b>1 – 3</b> of <b>10</b> results for <b>C++<b> </div>
-<!-- Single button -->
-<div class="btn-group">
-  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-    Action <span class="caret"></span>
-  </button>
-  <ul class="dropdown-menu" role="menu">
-    <li><a href="#">Action</a></li>
-    <li><a href="#">Another action</a></li>
-    <li><a href="#">Something else here</a></li>
-    <li class="divider"></li>
-    <li><a href="#">Separated link</a></li>
-  </ul>
-</div>
 
+
+<!-- 	<div class="btn-group">
+	  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+	    Action <span class="caret"></span>
+	  </button>
+	  <ul class="dropdown-menu" role="menu">
+	    <li><a href="#">Action</a></li>
+	    <li><a href="#">Another action</a></li>
+	    <li><a href="#">Something else here</a></li>
+	    <li class="divider"></li>
+	    <li><a href="#">Separated link</a></li>
+	  </ul>
+	</div> -->
+	
 	<ul class="box">
 		<li>
 			<div class="image">
