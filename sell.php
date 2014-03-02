@@ -139,7 +139,7 @@
 						        	<div class="form-group">
 							        	<label class="col-sm-4 control-label">Email</label>
 							        	<div class="col-sm-6">
-							          		<input type="email" class="form-control" placeholder="Name">
+							          		<input type="email" class="form-control" placeholder="Email or Phone">
 							        	</div>
 						      		</div>
 						      		<div class="form-group">
