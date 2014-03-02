@@ -7,17 +7,19 @@
  * Main form
  */
 .form-horizontal {
-	margin-left: 13%;
+	margin-left: 5%;
 }
 .form-horizontal .info-block {
-	margin-top: 150px;
+	margin-top: 210px;
+}
+.form-horizontal .dropdown-menu {
+	min-width: 130px;
 }
 .form-horizontal #you-info {
 	margin-top: 40px;
 }
 .form-horizontal div .info-title {
-	display: inline-block;
-	padding-right: 80px;
+	display: block;
 }
 .form-horizontal div .info-title h4 {
 	width: 90px;
@@ -28,8 +30,9 @@
 	display: inline-block;
 }
 .form-horizontal div .info-section h4 {
-	width: 560px;
+	width: 300px;
 	line-height: 20px;
+	color: #555;
 	font-size: 15px;
 	font-weight: bold;
 	font-style: oblique;
@@ -39,15 +42,15 @@
 	width: 600px;
 }
 .form-horizontal .form-group label {
-	width: 120px;
+	width: 110px;
 	color: #694489;
 	text-align: left;
 }
 .form-horizontal .form-group .text-field {
 	display: inline-block;
-	width: 400px;
+	width: 200px;
 }
-.form-horizontal .info-section a {
+.form-horizontal .info-section .form-group > a {
 	padding: 8px;
 	color: #ffffff;
 	background-color: #3B5997;
@@ -58,17 +61,41 @@
 	padding-right: 7px;
 }
 .form-horizontal .btn-group + .btn-group {
-	margin-left: 15px;
+	margin-left: 10px;
 }
 #submit {
-	margin-top: 360px;
-	margin-left: 170px;
+	margin-top: 420px;
+	margin-left: 280px;
+	padding-bottom: 20px;
 }
 #submit-button {
 	font-weight: bold;
 	font-size: 15px;
 	background-color: #694489;
 	color: #ffffff;
+}
+
+@media (min-width: 768px) {
+  .form-horizontal {
+	margin-left: 13%;
+  }	
+  .form-horizontal .info-block {
+	margin-top: 150px;
+  }
+  .form-horizontal div .info-title {
+  	display: inline-block;
+  	padding-right: 80px;
+  }
+  .form-horizontal div .info-section h4 {
+  	width: 560px;
+  }
+  .form-horizontal .form-group .text-field {
+  	width: 400px;
+  }
+  #submit {
+  	margin-top: 360px;
+	margin-left: 595px;
+  }
 }
 
 /*
