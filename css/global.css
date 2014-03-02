@@ -54,6 +54,10 @@ a:hover, a:focus {
 	height: 80px;
 	width: 145px;
 }
+#navbar-inner ul {
+  display: inline-block;
+  margin-left: 40px;
+}
 #navbar-inner ul > li {
   display: inline-block;
 }
