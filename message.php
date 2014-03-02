@@ -45,17 +45,13 @@
 				      <!-- speech bubbles and conversation goes here --> 
 				      <div class="modal-body">
 				       	<div class = "bubbleSender"><p id="chatText"> Hey, I'd like to buy your C++ How to Program for EECS 211</p></div>
-				       	<div id="receiver-container">
 					       	<img src="images/wildcat-willie.jpg" id="senderPic">
 					       	<div class = "bubbleReceiver"><p id="chatText"> Cool, when do you want to meet? </p></div>
-					    </div>
 				       	<div class ="bubbleSender"><p id="chatText"> How about Tech at 3PM tomorrow? </p>
 				       	</div>
-				       	<div id="receiver-container">
 					       	<img src="images/wildcat-willie.jpg" id="senderPic">
 					       	<div class ="bubbleReceiver"><p id="chatText"> Sounds good. See you tomorrow! </p>
 					       	</div>
-					    </div>
 				      </div>
 				      <!-- user inputs text in modal footer --> 
 				      <div class="modal-footer">

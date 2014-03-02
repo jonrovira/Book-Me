@@ -21,7 +21,7 @@
 	border-radius: 8px;
 	border: #7F7F7F solid 1px;
 	margin-left: 55%;
-	margin-bottom:3px;
+	margin-bottom:5px;
 }
 
 .bubbleSender:after 
@@ -64,7 +64,8 @@
 	border-radius: 8px;
 	border: #7F7F7F solid 1px;
 	margin-left:11%;
-	margin-bottom: 3px;
+	margin-bottom: 5px;
+	
 }
 
 .bubbleReceiver:after 
@@ -111,6 +112,7 @@
 #senderPic {
 	width:40px;
 	height:40px;
+	float:left;
 }
 
 #messagebox {
