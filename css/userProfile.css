@@ -3,12 +3,14 @@
  */
 
  #content {
-  padding-left: 200px;
+  padding-left: 150px;
   background-color: #ffffff;
   height: calc(100% - 93px);
+  padding-top: 25px;
 }
 
 .profile-head{
+ 
   height: 274px;
   width: calc(100% - 298px);
   background-color: #D9D9D9;
