@@ -37,10 +37,12 @@
 				  <div class="modal-dialog">
 				    <div class="modal-content">
 				      <div class="modal-header">
+				      	<!-- buyer's name --> 
 				        <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
 				        <h4 class="modal-title" id="myModalLabel">
 				        	<img src="images/Facebook-logo.png" width="30" height ="30"> William Chou</h4>
 				      </div>
+				      <!-- speech bubbles and conversation goes here --> 
 				      <div class="modal-body">
 				       	<div class = "bubbleSender"><p id="chatText"> Hey, I'd like to buy your C++ How to Program for EECS 211</p></div>
 				       	<div id="receiver-container">
@@ -55,6 +57,7 @@
 					       	</div>
 					    </div>
 				      </div>
+				      <!-- user inputs text in modal footer --> 
 				      <div class="modal-footer">
 				      	<div class="form-group">
 				        	<div class="col-sm-10" id="messagebox">
