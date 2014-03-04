@@ -190,13 +190,16 @@ table tr td:nth-child(3) {
 #seller-list table td {
   font-size: 15px;
 }
+#seller-list table td:nth-child(3) {
+  cursor: pointer;
+}
 #seller-list table tr .amazon {
   background-color: #c60;
 }
 #seller-list .btn {
   margin-top: 0;
   padding: 5px;
-  background-color: #428bca;
+  background-color: #3B5997;
   color: #ffffff;
   font-size: 15px;
 }

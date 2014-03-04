@@ -78,7 +78,7 @@
 							<tr>
 								<td>$80</td>
 								<td>Used - Good</td>
-								<td>W. Wildcat</td>
+								<td>Willie Wildcat</td>
 								<td><h3 class="btn">Message</h3></td>
 							</tr>
 							<tr>
@@ -90,25 +90,25 @@
 							<tr>
 								<td>$105</td>
 								<td>Used - Like New</td>
-								<td>Sally S.</td>
+								<td>Divir Gupta</td>
 								<td><h3 class="btn">Message</h3></td>
 							</tr>
 							<tr>
 								<td>$117</td>
 								<td>Used - Like New</td>
-								<td>Jon R.</td>
+								<td>Jon Rovira</td>
 								<td><h3 class="btn">Message</h3></td>
 							</tr>
 							<tr>
 								<td>$122</td>
 								<td>New</td>
-								<td>Christina K.</td>
+								<td>Christina Kim</td>
 								<td><h3 class="btn">Message</h3></td>
 							</tr>
 							<tr>
 								<td>$130</td>
 								<td>Used - Like New</td>
-								<td>Will C.</td>
+								<td>Will Chou</td>
 								<td><h3 class="btn">Message</h3></td>
 							</tr>
 							<tr>

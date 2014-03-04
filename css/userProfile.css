@@ -1,14 +1,12 @@
 /*
- * Content
+ * Image header
  */
-
  #content {
   padding-left: 150px;
   background-color: #ffffff;
   height: calc(100% - 93px);
   padding-top: 25px;
 }
-
 .profile-head{
  
   height: 274px;
@@ -17,27 +15,21 @@
   margin-left:150px;
   border-radius:20px;
 }
-
-
 .user-info {
   display:inline-block;
   margin-left: 30px;
   margin-bottom:800px;
 }
-
 #loc{
   font-size:20px;
 }
-
 #user-id {
   font-size: 40px;
   font-color: #8F6AA9;
 }
-
 #user-image {
   display:inline-block;
 }
-
 #user-image img{
   width: 200px;
   height: 240px;
@@ -47,39 +39,34 @@
 }
 
 
-
+/*
+ * Single book listing
+ */
 #table-title{
   font-size:20px;
 }
-
 #book-image img {
   width: 171.2px;
   height: 240px;
   margin-left:18px;
 }
-
 #book-title-info {
   height: 250px;
 }
-
 #title{
   font-size:20px;
 }
-
 #title, #edition {
   display: inline-block;
   margin-bottom: 5px;
 }
-
 #edition {
   margin-left: 5px;
   font-size: 15px;
 }
-
 #author {
   margin-top: 5px;
 }
-
 #price {
   margin-bottom: 5px;
   width: 100px;
@@ -93,6 +80,9 @@
 }
 
 
+/*
+ * Book list
+ */
 #book-list {
   margin-left: auto;
   margin-right: auto;
@@ -101,8 +91,6 @@
   padding-bottom: 20px;
   border: none;
 }
-
-
 .table {
   width: 100%;
   margin-left:auto;
@@ -112,7 +100,6 @@
   border-width:10px;
   border-height:10px;
 }
-
 #book-list table td {
   font-size: 15px;
 }
