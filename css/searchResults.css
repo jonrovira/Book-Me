@@ -1,65 +1,51 @@
-.my-container { margin: 0px 50px;}
-
-.navbar, .lead 
-{
+.my-container { 
+	margin: 0px 50px;
+}
+.navbar, .lead {
 	margin: 10px 70px;
 	font-size: 14px;
 }
-
-
-.box ul { list-style-type: none; }
-
-.box li
-{
+.box {
+	padding: 0;
+	text-align: center;
+}
+.box li {
 	height: 450px;
 	width: 245px;
-
 	margin: 0px 15px;
 	padding: 10px 15px;
 	display: inline-block;
 	vertical-align: top;
 	overflow: auto;
 }	
-
-
-.image 
-{
+.image {
 	background:#fff;
 	margin: 5px auto;
 	box-shadow: 0 0 2px 1px #ddd;
 	border: 1px solid #aaa;
-
 	-webkit-transition: box-shadow 0.5s ease;
 	-moz-transition: box-shadow 0.5s ease;
 	-o-transition: box-shadow 0.5s ease;
 	-ms-transition: box-shadow 0.5s ease;
 	transition: box-shadow 0.5s ease;
 }
-
-.box li img
-{
+.box li img {
 	width: 200px;
 	height: 250px;
 	margin: 5px auto;
 	display: block;
 	border: 1px solid #ddd;
-
 }
-
 .image:hover {
   	-webkit-box-shadow: 0 0 20px 5px #ddd;
   	box-shadow: 0 0 20px 5px #ddd;
 }
-
-.details
-{
+.details {
 	width: 100%;
 	margin: 0px auto;
 	overflow: hidden;
 }
-
-.purple 
-{
+.purple {
 	margin-top: 3px; 
 	padding: 0 5px;
 	display: inline-block;
@@ -69,5 +55,6 @@
 	border-radius: 10px;
 	background-color: #694489;
 }
-
-.box a, .box a:hover { color: inherit; }
+.box a, .box a:hover { 
+	color: inherit;
+}

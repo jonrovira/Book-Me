@@ -28,7 +28,7 @@
 					<div class="input-group">
 						<input type="text" class="form-control" placeholder="Search by book title, author, or class #" name="srch-term" id="srch-term">
 						<div class="input-group-btn">
-							<button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+							<button class="btn btn-default" type="submit" href="searchResults.php" id="submit-btn"><i class="glyphicon glyphicon-search"></i></button>
 						</div>
 					</div>
 					<div id="sell">
@@ -42,6 +42,7 @@
 		
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     	<script src="js/bootstrap.min.js"></script>
+    	<script src="js/index.js"></script>
 	</body>
 
 </html>
