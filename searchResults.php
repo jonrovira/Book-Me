@@ -70,7 +70,7 @@
 			  	</div><!-- /.container-fluid -->
 			</nav>
 
-
+			<div id="box-wrapper">
 			<ul class="box">
 				<li id="click-this-one">
 					<div class="image">

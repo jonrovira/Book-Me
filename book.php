@@ -79,7 +79,7 @@
 								<td>$80</td>
 								<td>Used - Good</td>
 								<td>Willie Wildcat</td>
-								<td><h3 class="btn">Message</h3></td>
+								<td><h3 class="btn" data-toggle="modal" data-target="#myModal">Message</h3></td>
 							</tr>
 							<tr>
 								<td>$100</td>
@@ -91,25 +91,25 @@
 								<td>$105</td>
 								<td>Used - Like New</td>
 								<td>Divir Gupta</td>
-								<td><h3 class="btn">Message</h3></td>
+								<td><h3 class="btn" data-toggle="modal" data-target="#myModal">Message</h3></td>
 							</tr>
 							<tr>
 								<td>$117</td>
 								<td>Used - Like New</td>
 								<td>Jon Rovira</td>
-								<td><h3 class="btn">Message</h3></td>
+								<td><h3 class="btn" data-toggle="modal" data-target="#myModal">Message</h3></td>
 							</tr>
 							<tr>
 								<td>$122</td>
 								<td>New</td>
 								<td>Christina Kim</td>
-								<td><h3 class="btn">Message</h3></td>
+								<td><h3 class="btn" data-toggle="modal" data-target="#myModal">Message</h3></td>
 							</tr>
 							<tr>
 								<td>$130</td>
 								<td>Used - Like New</td>
 								<td>Will Chou</td>
-								<td><h3 class="btn">Message</h3></td>
+								<td><h3 class="btn" data-toggle="modal" data-target="#myModal">Message</h3></td>
 							</tr>
 							<tr>
 								<td>$137</td>
@@ -121,6 +121,41 @@
 					</div>
 				</div>
 			</div>
+		</div>
+
+		<!-- Modal -->
+		<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		  <div class="modal-dialog">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		      	<!-- buyer's name --> 
+		        <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+		        <h4 class="modal-title" id="myModalLabel">
+		        	<img src="images/Facebook-logo.png" width="30" height ="30"> William Chou</h4>
+		      </div>
+		      <!-- speech bubbles and conversation goes here --> 
+		      <div class="modal-body">
+		       	<div class = "bubbleSender"><p id="chatText"> Hey, I'd like to buy your C++ How to Program for EECS 211</p></div>
+			       	<img src="images/wildcat-willie.jpg" id="senderPic">
+			       	<div class = "bubbleReceiver"><p id="chatText"> Cool, when do you want to meet? </p></div>
+		       	<div class ="bubbleSender"><p id="chatText"> How about Tech at 3PM tomorrow? </p>
+		       	</div>
+			       	<img src="images/wildcat-willie.jpg" id="senderPic">
+			       	<div class ="bubbleReceiver"><p id="chatText"> Sounds good. See you tomorrow! </p>
+			       	</div>
+		      </div>
+		      <!-- user inputs text in modal footer --> 
+		      <div class="modal-footer">
+		      	<div class="form-group">
+		        	<div class="col-sm-10" id="messagebox">
+		          		<input type="message" class="form-control">
+		        	</div>
+		        	<button type="button" class="btn btn-primary">Send</button>
+      			</div>
+		        
+		      </div>
+		    </div>
+		  </div>
 		</div>
 		
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
