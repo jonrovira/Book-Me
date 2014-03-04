@@ -31,21 +31,21 @@
 				<div id="sidebar-wrapper">
 		            <ul class="sidebar-nav">
 		                <li class="sidebar-brand">
-		                	<h4 href="#">Narrow your results</h4>
+		                	<h4>Narrow your results</h4>
 		                </li>
 		                <li>
-		                	<p href="#">Price Ceiling</p>
+		                	<p>Price Ceiling</p>
 		                	<input type="text" id="price-slider" class="span2" value="" data-slider-min="0" data-slider-max="300" data-slider-step="5" data-slider-value="300" data-slider-orientation="horizontal" data-slider-selection="after" data-slider-tooltip="hide">
 		                	<input type="text" id="price-bar">
 		                </li>
 		                <li>
-		                	<p href="#">Textbook Type</p>
+		                	<p>Textbook Type</p>
 		                	<span class="input-group-addon"><input type="checkbox" checked><p>Hardcover</p></span>
 		                	<span class="input-group-addon"><input type="checkbox" checked><p>Paperback</p></span>
 		                	<span class="input-group-addon"><input type="checkbox" checked><p>Loose-leaf</p></span>
 		                </li>
 		                <li>
-		                	<p href="#">Condition</p>
+		                	<p>Condition</p>
 		                	<span class="input-group-addon"><input type="checkbox" checked><p>Used - Poor</p></span>
 		                	<span class="input-group-addon"><input type="checkbox" checked><p>Used - Good</p></span>
 		                	<span class="input-group-addon"><input type="checkbox" checked><p>Used - Like New</p></span>

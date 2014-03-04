@@ -10,7 +10,7 @@
 	margin-left: 5%;
 }
 .form-horizontal .info-block {
-	margin-top: 210px;
+	margin-top: 230px;
 }
 .form-horizontal .dropdown-menu {
 	min-width: 130px;
@@ -39,34 +39,43 @@
 }
 .form-horizontal .form-group {
 	margin-top: 20px;
-	width: 600px;
+	width: 290px;
+}
+.form-horizontal .small-group {
+	width: 100px;
 }
 .form-horizontal .form-group label {
-	width: 110px;
-	color: #694489;
+	margin-bottom: 10px;
+	padding-top: 0;
+	width: 280px;
+	color: #444;
 	text-align: left;
 }
+.form-horizontal .form-group label + .btn-group {
+	margin-left: 15px;
+}
 .form-horizontal .form-group .text-field {
-	display: inline-block;
-	width: 200px;
+	padding-left: 15px;
 }
 .form-horizontal .info-section .form-group > a {
-	padding: 8px;
+	margin-left: 15px;
+	padding: 5px;
+	font-size: 10px;
 	color: #ffffff;
 	background-color: #3B5997;
 	border: 1px solid #3B5997;
 }
 .form-horizontal .info-section a i {
-	color: #ffffff;
 	padding-right: 7px;
+	color: #ffffff;
 }
 .form-horizontal .btn-group + .btn-group {
-	margin-left: 10px;
+	margin-left: 5px;
 }
 #submit {
 	margin-top: 420px;
-	margin-left: 280px;
-	padding-bottom: 20px;
+	margin-left: 200px;
+	padding-bottom: 120px;
 }
 #submit-button {
 	font-weight: bold;
@@ -82,6 +91,10 @@
   .form-horizontal .info-block {
 	margin-top: 150px;
   }
+  .form-horizontal .form-group label {
+  	margin-bottom: 0;
+  	width: 110px;
+  }
   .form-horizontal div .info-title {
   	display: inline-block;
   	padding-right: 80px;
@@ -89,14 +102,25 @@
   .form-horizontal div .info-section h4 {
   	width: 560px;
   }
-  .form-horizontal .form-group .text-field {
+  .form-horizontal .info-section .form-group > a {
+  	margin-left: 0;
+  }
+  .form-horizontal .form-group {
   	width: 400px;
+  }
+  .form-horizontal .small-group {
+  	width: 120px;
+  }
+  .form-horizontal .form-group label + .btn-group {
+  	margin-left: 0;
   }
   #submit {
   	margin-top: 360px;
-	margin-left: 595px;
+	margin-left: 480px;
+	padding-bottom: 50px;
   }
 }
+
 
 /*
  * Modal FB login
@@ -106,7 +130,15 @@
 	width: 30px;
 	height: 30px;
 }
-
+.modal .modal-body .form-horizontal .form-group {
+	width: 300px;
+}
 .modal .modal-dialog .modal-body label {
 	color: #444;
+}
+
+@media (min-width: 768px) {
+  .modal .modal-body .form-horizontal .form-group {
+  	width: 600px;
+  }
 }

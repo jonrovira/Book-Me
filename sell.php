@@ -40,9 +40,8 @@
 									<a id="login-modal" data-toggle="modal" data-target=".bs-example-modal-lg" href="#"><i class="fa fa-facebook"></i> Log in</a>
 						      	</div>
 								<div class="form-group">
-						        	<label class="col-sm-2 control-label">Your Name</label>
 						        	<div class="text-field">
-						          		<input type="text" class="form-control" placeholder="Will Chou">
+						          		<input type="text" class="form-control" placeholder="Your name">
 						        	</div>
 						      	</div>
 						    </div>
@@ -80,21 +79,23 @@
 							      	</div>
 								</div>
 						      	<div class="form-group">
-						        	<label class="col-sm-2 control-label">Title</label>
 						        	<div class="text-field">
-						          		<input type="text" class="form-control" placeholder="C++ How to Program">
+						          		<input type="text" class="form-control" placeholder="Title">
 						        	</div>
 						      	</div>
 						      	<div class="form-group">
-						        	<label class="col-sm-2 control-label">Author</label>
 						        	<div class="text-field">
-						          		<input type="text" class="form-control" placeholder="Paul Dietel">
+						          		<input type="text" class="form-control" placeholder="Author">
 						        	</div>
 						      	</div>
-						      	<div class="form-group">
-						        	<label class="col-sm-2 control-label">Price</label>
+						      	<div class="form-group small-group">
 						        	<div class="text-field">
-						          		<input type="text" class="form-control" placeholder="$100.00">
+						          		<input type="text" class="form-control" placeholder="Edition">
+						        	</div>
+						      	</div>
+						      	<div class="form-group small-group">
+						        	<div class="text-field">
+						          		<input type="text" class="form-control" placeholder="Price">
 						        	</div>
 						      	</div>
 						      	<div class="form-group">
@@ -111,12 +112,6 @@
 							        	</ul>
 							      	</div>
 								</div>
-						      	<div class="form-group">
-						        	<label class="col-sm-2 control-label">Edition</label>
-						        	<div class="text-field">
-						          		<input type="text" class="form-control" placeholder="3rd">
-						        	</div>
-						      	</div>
 							</div>
 						</div>
 
