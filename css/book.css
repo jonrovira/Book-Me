@@ -250,9 +250,25 @@ table tr td:nth-child(3) {
     -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
   }
 }
+/* Modal for Facebook Login */
+.modal .modal-dialog .modal-content img {
+  padding-right: 3px;
+  width: 30px;
+  height: 30px;
+}
+.modal .modal-body .form-horizontal .form-group {
+  width: 300px;
+}
+.modal .modal-dialog .modal-body label {
+  color: #444;
+}
 
+@media (min-width: 768px) {
+  .modal .modal-body .form-horizontal .form-group {
+    width: 600px;
+  }
 /* 
- * Modal
+ * Modal for Facebook Messenger
  */
 .modal-header {
   background-color:#627BAE;
@@ -356,3 +372,4 @@ table tr td:nth-child(3) {
 #messagebox {
   margin-left:5%;
 }
+

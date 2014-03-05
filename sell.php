@@ -127,7 +127,7 @@
 				    	<div class="modal-content">
 				      		<div class="modal-header">
 				        		<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-				        		<h4 class="modal-title"><img src="images/Facebook-logo.png"> Facebook Login</h4>
+				        		<h4 class="modal-title" id="myModalLabel"><img src="images/Facebook-logo.png"> Facebook Login</h4>
 				      		</div>
 				      		<div class="modal-body">
 					      		<form class="form-horizontal" role="form">
@@ -147,7 +147,7 @@
 				      		</div>
 				      		<div class="modal-footer">
 				        		<button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
-				        		<button type="button" class="btn btn-primary">Log In</button>
+				        		<button type="button" class="btn btn-primary" data-dismiss="modal">Log In</button>
 				      		</div> 
 				    	</div>
 				  	</div>

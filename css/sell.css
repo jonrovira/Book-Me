@@ -142,3 +142,12 @@
   	width: 600px;
   }
 }
+.modal-header {
+  background-color:#627BAE;
+}
+.modal-body {
+  background-color: #EDEFF4
+}
+#myModalLabel {
+  color: #FFFFFF;
+}

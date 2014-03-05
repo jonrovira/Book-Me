@@ -79,7 +79,7 @@
 								<td>$80</td>
 								<td>Used - Good</td>
 								<td>Willie Wildcat</td>
-								<td><h3 class="btn" data-toggle="modal" data-target="#myModal">Message</h3></td>
+								<td><h3 class="btn" data-toggle="modal" data-target="#login-modal">Message</h3></td>
 							</tr>
 							<tr>
 								<td>$100</td>
@@ -91,25 +91,25 @@
 								<td>$105</td>
 								<td>Used - Like New</td>
 								<td>Divir Gupta</td>
-								<td><h3 class="btn" data-toggle="modal" data-target="#myModal">Message</h3></td>
+								<td><h3 class="btn" data-toggle="modal" data-target="#login-modal">Message</h3></td>
 							</tr>
 							<tr>
 								<td>$117</td>
 								<td>Used - Like New</td>
 								<td>Jon Rovira</td>
-								<td><h3 class="btn" data-toggle="modal" data-target="#myModal">Message</h3></td>
+								<td><h3 class="btn" data-toggle="modal" data-target="#login-modal">Message</h3></td>
 							</tr>
 							<tr>
 								<td>$122</td>
 								<td>New</td>
 								<td>Christina Kim</td>
-								<td><h3 class="btn" data-toggle="modal" data-target="#myModal">Message</h3></td>
+								<td><h3 class="btn" data-toggle="modal" data-target="#login-modal">Message</h3></td>
 							</tr>
 							<tr>
 								<td>$130</td>
 								<td>Used - Like New</td>
 								<td>Will Chou</td>
-								<td><h3 class="btn" data-toggle="modal" data-target="#myModal">Message</h3></td>
+								<td><h3 class="btn" data-toggle="modal" data-target="#login-modal">Message</h3></td>
 							</tr>
 							<tr>
 								<td>$137</td>
@@ -123,7 +123,39 @@
 			</div>
 		</div>
 
-		<!-- Modal -->
+		<!-- Modal for Facebook Login-->
+		<div class="modal fade bs-example-modal-lg" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		 	<div class="modal-dialog">
+		    	<div class="modal-content">
+		      		<div class="modal-header">
+		        		<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+		        		<h4 class="modal-title" id="myModalLabel"><img src="images/Facebook-logo.png"> Facebook Login</h4>
+		      		</div>
+		      		<div class="modal-body">
+			      		<form class="form-horizontal" role="form">
+				        	<div class="form-group">
+					        	<label class="col-sm-4 control-label">Email</label>
+					        	<div class="col-sm-6">
+					          		<input type="email" class="form-control" placeholder="Email or Phone">
+					        	</div>
+				      		</div>
+				      		<div class="form-group">
+					        	<label class="col-sm-4 control-label">Password</label>
+					        	<div class="col-sm-6">
+					          		<input type="email" class="form-control" placeholder="Password">
+					        	</div>
+			      			</div>
+			      		</form>
+		      		</div>
+		      		<div class="modal-footer">
+		        		<button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+		        		<button type="button" class="btn btn-primary" data-toggle="modal" data-dismiss="modal" data-target="#myModal">Log In</button>
+		      		</div> 
+		    	</div>
+		  	</div>
+		</div>
+
+		<!-- Modal for Facebook Messenger-->
 		<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 		  <div class="modal-dialog">
 		    <div class="modal-content">
@@ -150,7 +182,7 @@
 		        	<div class="col-sm-10" id="messagebox">
 		          		<input type="message" class="form-control">
 		        	</div>
-		        	<button type="button" class="btn btn-primary">Send</button>
+		        	<button type="button" class="btn btn-primary" data-dismiss="modal">Send</button>
       			</div>
 		        
 		      </div>
