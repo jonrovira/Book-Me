@@ -27,16 +27,13 @@
 					<img src="images/Textbook-Xchange-Logo.png" />
 					<div class="input-group">
 						<input type="text" class="form-control" placeholder="Search by book title, author, or class #" name="srch-term" id="srch-term">
-						<div class="input-group-btn">
-							<button class="btn btn-default" type="submit" href="searchResults.php" id="submit-btn"><i class="glyphicon glyphicon-search"></i></button>
-						</div>
 					</div>
-					<div id="sell">
-					    Sell a book
-					    <a href="sell.php">
-					        <span class="link-spanner"></span>
-					    </a>
-					</div>
+					<a href="searchResults.php">
+						Buy a book
+					</a>
+					<a href="sell.php">
+						Sell a book
+					</a>
 			</div>
 		</div>
 		
