@@ -29,25 +29,51 @@
 				<?php include 'header.html'; ?>
 
 				<div id="outline">
+					<div id="example">
+						<img src="images/Sell-Form-Example.png">
+					</div>
 					<form id="info">
 						<div id="facebook">
 							<a id="login-modal" data-toggle="modal" data-target=".bs-example-modal-lg" href="#"><i class="fa fa-facebook"></i><span>Log in with Facebook (Required)</span></a>
 						</div>
 						<h3>Describe your book...</h3>
-						<input type="text" class="half" placeholder="Department (e.g. EECS)">
-						<input type="text" class="half" placeholder="Class Number (e.g. 211)">
-						<input type="text" placeholder="Title">
-						<input type="text" placeholder="Author">
-						<input type="text" placeholder="Edition">
+						<h6>All fields are required</h6>
+						<div class="btn-group">
+						 	<button type="button" class="btn btn-danger">Department</button>
+						 	<button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown"><span class="caret"></span><span class="sr-only">Toggle Dropdown</span></button>
+						  	<ul class="dropdown-menu" role="menu">
+						    	<li><a href="#">ART</a></li>
+						    	<li><a href="#">DSGN</a></li>
+						    	<li><a href="#">EECS</a></li>
+						    	<li><a href="#">GEN_MUS</a></li>
+						    	<li><a href="#">MUSICOL</a></li>
+						    	<li><a href="#">PHYS</a></li>
+						  	</ul>
+						</div>
+						<div class="btn-group">
+						 	<button type="button" class="btn btn-danger">Course Number</button>
+						 	<button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown"><span class="caret"></span><span class="sr-only">Toggle Dropdown</span></button>
+						  	<ul class="dropdown-menu" role="menu">
+						    	<li><a href="#">101</a></li>
+						    	<li><a href="#">111</a></li>
+						    	<li><a href="#">211</a></li>
+						    	<li><a href="#">212</a></li>
+						    	<li><a href="#">213</a></li>
+						    	<li><a href="#">214</a></li>
+						  	</ul>
+						</div><br>
+						<input type="text" placeholder="Title"><br>
+						<input type="text" placeholder="Author"><br>
+						<input type="text" placeholder="Edition"><br>
 						<input type="text" placeholder="Price">
 						<div id="condition">
 							<h3>Condition</h3>
 							<input type="radio"><h6>New</h6><br>
 							<input type="radio"><h6>Used - Like New</h6><br>
-							<input type="radio"><h6>Used - Good condition</h6><br>
-							<input type="radio"><h6>Used - Good Condition</h6><br>
-							<input type="radio"><h6>Used - Poor Condition</h6><br><br>
+							<input type="radio"><h6>Used - Good</h6><br>
+							<input type="radio"><h6>Used - Poor</h6><br><br>
 						</div>
+						<button id="submit" type="submit" href="#">Submit post</button>
 					</form>
 				</div>
 
