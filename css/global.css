@@ -37,6 +37,9 @@ a:hover, a:focus {
   background-color: #ffffff;
   border: none;
 }
+#top-nav .navbar-header button {
+  margin-top: 25px;
+}
 #top-nav .navbar-brand {
   padding: 0;
   height: 80px;
