@@ -1,11 +1,12 @@
 .my-container { 
-	margin: 0px 50px;
+	padding: 0 120px;
 }
 .navbar, .lead {
-	margin: 10px 70px;
+	margin: 10px 0;
 	font-size: 14px;
 }
 .box {
+	padding: 0;
 }
 .box li {
 	height: 450px;

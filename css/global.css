@@ -10,19 +10,16 @@ html, body {
 a:hover, a:focus {
 	text-decoration: none;
 }
-
 #wrapper {
 	width:  100%;
 	height: 100%;
 	min-height: 100%;
 	background-color: #694489;
 }
-
 #container {
 	margin: 0 auto;
 	height: 100%;
 }
-
 @media (min-width: 768px) { /* Pull out the header and footer */
   #container {
   	width: 100%;
@@ -34,73 +31,38 @@ a:hover, a:focus {
  * Navbar
  */
 
-#navbar {
-	background-color: #ffffff;
-	z-index: 10;
+#top-nav {
+  margin-top: 10px;
+  margin-bottom: 60px;
+  background-color: #ffffff;
+  border: none;
 }
-#navbar-inner {
-	padding-top: 17px;
-	padding-right: 30px;
-	padding-bottom: 5px;
-	padding-left: 20px;
-	text-align: center;
-	margin: 0 auto;
+#top-nav .navbar-brand {
+  padding: 0;
+  height: 80px;
+  width: 145px;
 }
-#nav-brand {
-	display: inline-block;
+#top-nav img {
+  height: 80px;
+  width: 145px;
 }
-#nav-brand img {
-	margin-top: -13px;
-	height: 80px;
-	width: 145px;
+#top-nav form {
+  margin-top: 22px;
+  width: calc(100% - 300px);
 }
-#navbar-inner ul {
-  display: inline-block;
-  margin-left: 40px;
+#top-nav .form-group {
+  width: calc(100% - 80px);
 }
-#navbar-inner ul > li {
-  display: inline-block;
+#top-nav input {
+  width: 100%;
 }
-#navbar-inner ul > li + li {
-  margin-left: 20px;
+#top-nav .btn {
+  color: #fff;
+  background-color: #85609f;
 }
-#navbar-inner ul > li > a {
-  padding-right: 0;
+#top-nav .navbar-right {
+  margin-top: 13px;
+}
+#top-nav .navbar-right li:nth-child(1) a {
   padding-left: 0;
-  font-size: 15px;
-  color: #444;
 }
-#navbar ul > li > a:hover, #navbar ul > li > a:focus {
-  text-decoration: none;
-  background-color: transparent;
-}
-.navbar-form .input-group input, .navbar-form .input-group .input-group-btn .btn {
-	border-color: #aaa;
-}
-
-#navbar hr {
-	margin-top: 70px;
-	margin-bottom: 0;
-}
-
-@media (min-width: 768px) {
-  #navbar {
-    top: 0;
-    width: 100%;
-    vertical-align: middle;
-  }
-  #nav-brand  {
-    float: left;
-  }
-  #navbar-inner ul {
-    float: right;
-    margin-left: 0px;
-  }
-}
-
-@media (min-width: 992px) {
-  #navbar-inner {
-  	width: 95%;
-  }
-}
-

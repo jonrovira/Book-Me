@@ -28,97 +28,27 @@
 
 				<?php include 'header.html'; ?>
 
-				<div>
-					<form class="form-horizontal" role="form">
-
-						<div class="info-block" id="you-info">
-							<div class="info-title"><h4>You</h4></div>
-							<div class="info-section">
-								<h4>To communicate with buyers, log in using Facebook.</h4>
-								<div class="form-group">
-						        	<label class="col-sm-2 control-label">Facebook</label>
-									<a id="login-modal" data-toggle="modal" data-target=".bs-example-modal-lg" href="#"><i class="fa fa-facebook"></i> Log in</a>
-						      	</div>
-								<div class="form-group">
-						        	<div class="text-field">
-						          		<input type="text" class="form-control" placeholder="Your name">
-						        	</div>
-						      	</div>
-						    </div>
+				<div id="outline">
+					<form id="info">
+						<div id="facebook">
+							<a id="login-modal" data-toggle="modal" data-target=".bs-example-modal-lg" href="#"><i class="fa fa-facebook"></i><span>Log in with Facebook (Required)</span></a>
 						</div>
-
-						<div class="info-block" id="book-info">
-							<div class="info-title"><h4>Textbook</h4></div>
-							<div class="info-section">
-								<h4>Help us advertise your book. Fill in its information below.</h4>
-								<div class="form-group">
-									<label class="col-sm-2 control-label">Course</label>
-									<div class="btn-group">
-							        	<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-							        		Department <span class="caret"></span>
-							        	</button>
-							        	<ul class="dropdown-menu" role="menu">
-							          		<li><a href="#">ANTHRO</a></li>
-							          		<li><a href="#">BIO</a></li>
-							          		<li><a href="#">BME</a></li>
-							          		<li><a href="#">CHEM</a></li>
-							          		<li><a href="#">EECS</a></li>
-							        	</ul>
-							      	</div>
-						      		<div class="btn-group">
-							        	<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-							          		Class Number <span class="caret"></span>
-							        	</button>
-							        	<ul class="dropdown-menu" role="menu">
-							          		<li><a href="#">101</a></li>
-							          		<li><a href="#">110</a></li>
-							          		<li><a href="#">202</a></li>
-							          		<li><a href="#">211</a></li>
-							          		<li><a href="#">213</a></li>
-							        	</ul>
-							      	</div>
-								</div>
-						      	<div class="form-group">
-						        	<div class="text-field">
-						          		<input type="text" class="form-control" placeholder="Title">
-						        	</div>
-						      	</div>
-						      	<div class="form-group">
-						        	<div class="text-field">
-						          		<input type="text" class="form-control" placeholder="Author">
-						        	</div>
-						      	</div>
-						      	<div class="form-group small-group">
-						        	<div class="text-field">
-						          		<input type="text" class="form-control" placeholder="Edition">
-						        	</div>
-						      	</div>
-						      	<div class="form-group small-group">
-						        	<div class="text-field">
-						          		<input type="text" class="form-control" placeholder="Price">
-						        	</div>
-						      	</div>
-						      	<div class="form-group">
-									<label class="col-sm-2 control-label">Condition</label>
-									<div class="btn-group">
-							        	<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-							          		Choose one <span class="caret"></span>
-							        	</button>
-							        	<ul class="dropdown-menu" role="menu">
-							          		<li><a href="#">New</a></li>
-							          		<li><a href="#">Used - Like New</a></li>
-							          		<li><a href="#">Used - Good Condition</a></li>
-							          		<li><a href="#">Used - Poor Condition</a></li>
-							        	</ul>
-							      	</div>
-								</div>
-							</div>
+						<h3>Describe your book...</h3>
+						<input type="text" class="half" placeholder="Department (e.g. EECS)">
+						<input type="text" class="half" placeholder="Class Number (e.g. 211)">
+						<input type="text" placeholder="Title">
+						<input type="text" placeholder="Author">
+						<input type="text" placeholder="Edition">
+						<input type="text" placeholder="Price">
+						<div id="condition">
+							<h3>Condition</h3>
+							<input type="radio"><h6>New</h6><br>
+							<input type="radio"><h6>Used - Like New</h6><br>
+							<input type="radio"><h6>Used - Good condition</h6><br>
+							<input type="radio"><h6>Used - Good Condition</h6><br>
+							<input type="radio"><h6>Used - Poor Condition</h6><br><br>
 						</div>
-
-						<div id="submit">
-							<button type="button" id="submit-button" class="btn btn-default btn-sm">Submit</button>
-						</div>
-				    </form>
+					</form>
 				</div>
 
 				<!-- Modal -->

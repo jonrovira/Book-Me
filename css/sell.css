@@ -1,124 +1,100 @@
 #wrapper {
 	background-color: #ffffff;
 }
+#container {
+	padding: 0 20px;
+}
+@media (min-width: 768px) {
+	#container {
+		padding: 0 120px;
+	}
+}
+#outline {
+	margin-top: 30px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	width: 440px;
+	background: rgb(133, 96, 159);
+	background: rgba(133, 96, 159, 0.25);
+	border-radius: 4px;
+}
 
 
 /*
  * Main form
  */
-.form-horizontal {
-	margin-left: 5%;
+#info {
+	margin-right: auto;
+	margin-left: auto;
+	width: 400px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	background-color: #ffffff;
 }
-.form-horizontal .info-block {
-	margin-top: 230px;
+#info #facebook {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-right: auto;
+	margin-left: auto;
+	width: 380px;
+	height: 60px;
+	background-color: #3b5b95;
+	border-radius: 4px;
 }
-.form-horizontal .dropdown-menu {
-	min-width: 130px;
+#info #facebook i {
+	padding: 17px 15px 17px 20px;
+	font-size: 25px;
+	color: #ffffff;
+	border-right: 1px solid #333;
 }
-.form-horizontal #you-info {
-	margin-top: 40px;
+#info #facebook span {
+	padding-top: 22px;
+	padding-right: 45px;
+	padding-bottom: 18px;
+	padding-left: 45px;
+	font-size: 17px;
+	color: #ffffff;
 }
-.form-horizontal div .info-title {
-	display: block;
+#info > h3 {
+	margin: 0;
+	padding: 25px 12px 15px 12px;
+	font-size: 19px;
+	font-weight: heavy;
+	color: #666;
+	border: 1px solid #ccc;
+	border-style: solid none solid none;
 }
-.form-horizontal div .info-title h4 {
-	width: 90px;
-	opacity: 0.5;
+#info > input, #info #condition h3 {
+	padding: 13px 12px;
+	width: 398px;
+	border-style: solid none none none;
+	border-top: 1px solid #ccc;
+	font-size: 14px;
 }
-.form-horizontal div .info-section {
-	position: absolute;
+#info .half {
 	display: inline-block;
+	width: 197px;
+	border-top: none;
 }
-.form-horizontal div .info-section h4 {
-	width: 300px;
-	line-height: 20px;
-	color: #555;
-	font-size: 15px;
-	font-weight: bold;
-	font-style: oblique;
+#info .half + .half {
+	border-left: 1px solid #ccc;
 }
-.form-horizontal .form-group {
-	margin-top: 20px;
-	width: 290px;
+#info #condition h6 {
+	display: inline-block;
+	padding-left: 3px;
+	width: 130px;
 }
-.form-horizontal .small-group {
-	width: 100px;
+#info #condition h3, #info #condition h6 {
+	margin: 0;
+	color: #666;
 }
-.form-horizontal .form-group label {
-	margin-bottom: 10px;
-	padding-top: 0;
-	width: 280px;
-	color: #444;
-	text-align: left;
+#info #condition h3 + input, #info #condition br + input {
+	margin-left: 20px;
 }
-.form-horizontal .form-group label + .btn-group {
-	margin-left: 15px;
-}
-.form-horizontal .form-group .text-field {
-	padding-left: 15px;
-}
-.form-horizontal .info-section .form-group > a {
-	margin-left: 15px;
-	padding: 5px;
-	font-size: 10px;
-	color: #ffffff;
-	background-color: #3B5997;
-	border: 1px solid #3B5997;
-}
-.form-horizontal .info-section a i {
-	padding-right: 7px;
-	color: #ffffff;
-}
-.form-horizontal .btn-group + .btn-group {
-	margin-left: 5px;
-}
-#submit {
-	margin-top: 420px;
-	margin-left: 200px;
-	padding-bottom: 120px;
-}
-#submit-button {
-	font-weight: bold;
-	font-size: 15px;
-	background-color: #694489;
-	color: #ffffff;
-}
-
-@media (min-width: 768px) {
-  .form-horizontal {
-	margin-left: 13%;
-  }	
-  .form-horizontal .info-block {
-	margin-top: 150px;
-  }
-  .form-horizontal .form-group label {
-  	margin-bottom: 0;
-  	width: 110px;
-  }
-  .form-horizontal div .info-title {
-  	display: inline-block;
-  	padding-right: 80px;
-  }
-  .form-horizontal div .info-section h4 {
-  	width: 560px;
-  }
-  .form-horizontal .info-section .form-group > a {
-  	margin-left: 0;
-  }
-  .form-horizontal .form-group {
-  	width: 400px;
-  }
-  .form-horizontal .small-group {
-  	width: 120px;
-  }
-  .form-horizontal .form-group label + .btn-group {
-  	margin-left: 0;
-  }
-  #submit {
-  	margin-top: 360px;
-	margin-left: 480px;
-	padding-bottom: 50px;
-  }
+#info #condition h6 + input {
+	margin-left: 10px;
 }
 
 
