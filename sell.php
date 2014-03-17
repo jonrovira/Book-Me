@@ -68,10 +68,10 @@
 						<input type="text" placeholder="Price">
 						<div id="condition">
 							<h3>Condition</h3>
-							<input type="radio" name="condition" value="new"><h6>New</h6><br>
-							<input type="radio" name="condition" value="used-ln"><h6>Used - Like New</h6><br>
-							<input type="radio" name="condition" value="used-g"><h6>Used - Good</h6><br>
-							<input type="radio" name="condition" value="used-p"><h6>Used - Poor</h6><br><br>
+							<input type="radio" name="condition" value="new" id="new"><label for="new">New</label><br>
+							<input type="radio" name="condition" value="used-ln" id="used-ln"><label for="used-ln">Used - Like New</label><br>
+							<input type="radio" name="condition" value="used-g" id="used-g"><label for="used-g">Used - Good</label><br>
+							<input type="radio" name="condition" value="used-p" id="used-p"><label for="used-p">Used - Poor</label><br><br>
 						</div>
 						<button id="submit" type="submit" href="#">Submit post</button>
 					</form>

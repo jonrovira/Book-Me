@@ -69,9 +69,25 @@ a:hover, a:focus {
 #top-nav .navbar-right li:nth-child(1) a {
   padding-left: 0;
 }
-/*
 @media (max-width: 768px) {
-  #top-nav .collapse form {
-    display: none;
+  #top-nav .collapse {
+    float: right;
+    border: none;
+    text-align: right;  
   }
-}*/
+  #top-nav .collapse form {
+    border: none;
+  }
+  #top-nav .collapse .form-group {
+    min-width: 250px;
+  }
+  #top-nav .collapse .form-group, #top-nav .collapse form button {
+    display: inline-block;
+  }
+  #top-nav .collapse ul  {
+    margin: 0;
+  }
+  #top-nav .collapse ul li a {
+    padding-left: 0;
+  }
+}
