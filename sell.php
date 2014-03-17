@@ -43,6 +43,7 @@
 						 	<button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown"><span class="caret"></span><span class="sr-only">Toggle Dropdown</span></button>
 						  	<ul class="dropdown-menu" role="menu">
 <<<<<<< HEAD
+<<<<<<< HEAD
 						    	<li id="ART"><a href="#">ART</a></li>
 						    	<li id="DSGN"><a href="#">DSGN</a></li>
 						    	<li id="EECS"><a href="#">EECS</a></li>
@@ -50,12 +51,17 @@
 						    	<li id="MUSICOL"><a href="#">MUSICOL</a></li>
 						    	<li id="PHYS"><a href="#">PHYS</a></li>
 =======
+=======
+>>>>>>> FETCH_HEAD
 						    	<li><a>ART</a></li>
 						    	<li><a>DSGN</a></li>
 						    	<li><a>EECS</a></li>
 						    	<li><a>GEN_MUS</a></li>
 						    	<li><a>MUSICOL</a></li>
 						    	<li><a>PHYS</a></li>
+<<<<<<< HEAD
+>>>>>>> FETCH_HEAD
+=======
 >>>>>>> FETCH_HEAD
 						  	</ul>
 						</div>
@@ -64,6 +70,7 @@
 						 	<button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown"><span class="caret"></span><span class="sr-only">Toggle Dropdown</span></button>
 						  	<ul class="dropdown-menu" role="menu">
 <<<<<<< HEAD
+<<<<<<< HEAD
 						    	<li id="101"><a href="#">101</a></li>
 						    	<li id="111"><a href="#">111</a></li>
 						    	<li id="211"><a href="#">211</a></li>
@@ -71,12 +78,17 @@
 						    	<li id="213"><a href="#">213</a></li>
 						    	<li id="214"><a href="#">214</a></li>
 =======
+=======
+>>>>>>> FETCH_HEAD
 						    	<li><a>101</a></li>
 						    	<li><a>111</a></li>
 						    	<li><a>211</a></li>
 						    	<li><a>212</a></li>
 						    	<li><a>213</a></li>
 						    	<li><a>214</a></li>
+<<<<<<< HEAD
+>>>>>>> FETCH_HEAD
+=======
 >>>>>>> FETCH_HEAD
 						  	</ul>
 						</div><br>
