@@ -64,7 +64,7 @@
 						</div><br>
 						<input type="text" id="title-field" placeholder="Title"><br>
 						<input type="text" id="author-field" placeholder="Author"><br>
-						<input type="text" id="edition-field" placeholder="Edition"><br>
+						<input type="text" placeholder="Edition"><br>
 						<input type="text" placeholder="Price">
 						<div id="condition">
 							<h3>Condition</h3>
