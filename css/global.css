@@ -69,3 +69,9 @@ a:hover, a:focus {
 #top-nav .navbar-right li:nth-child(1) a {
   padding-left: 0;
 }
+/*
+@media (max-width: 768px) {
+  #top-nav .collapse form {
+    display: none;
+  }
+}*/
