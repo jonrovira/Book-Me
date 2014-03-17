@@ -1,7 +1,28 @@
 .my-container { 
-	padding: 0 120px;
+	padding: 0 40px;
 }
-.navbar, .lead {
+@media (min-width: 500px) {
+	.my-container {
+		padding: 0 60px;
+	}
+}
+@media (min-width: 768px) {
+	.my-container {
+		padding: 0 80px;
+	}
+}
+@media (min-width: 1050px) {
+  	.my-container {
+  		padding: 0 120px;
+  	}
+}
+
+
+/*
+ * Content
+ */
+
+#filters, .lead {
 	margin: 10px 0;
 	font-size: 14px;
 }
@@ -56,4 +77,12 @@
 }
 .box a, .box a:hover { 
 	color: inherit;
+}
+@media(max-width: 776px) {
+	#filters {
+		display: none;
+	}
+	#box-wrapper {
+		margin-top: 50px;
+	}
 }

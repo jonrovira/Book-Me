@@ -6,7 +6,6 @@
   background-color: #ffffff;
   height: calc(100% - 93px);
 }
-
 @media (min-width: 768px) {
   #content {
     width: 100%;
@@ -84,7 +83,6 @@
 .slider {
   margin-left: 21px;
 }
-
 @media (max-width:768px) {
   #content {
     padding-left: 0;
@@ -164,9 +162,9 @@ table tr td:nth-child(3) {
 #categories {
   width: calc(100% - 70px);
   margin-top: 40px;
-  margin-right: auto;
+  margin-right: 10px;
   margin-bottom: 0;
-  margin-left: auto;
+  margin-left: 10px;
 }
 #categories tr {
   font-weight: bold;
@@ -176,8 +174,8 @@ table tr td:nth-child(3) {
   border-top: none;
 }
 #seller-list {
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 10px;
+  margin-right: 10px;
   width: calc(100% - 71px);
   padding-bottom: 20px;
   border: none;
@@ -188,7 +186,7 @@ table tr td:nth-child(3) {
   table-layout: fixed;
 }
 #seller-list table td {
-  font-size: 15px;
+  font-size: 12px;
 }
 #seller-list table td:nth-child(3) {
   cursor: pointer;
@@ -201,9 +199,17 @@ table tr td:nth-child(3) {
   padding: 5px;
   background-color: #3B5997;
   color: #ffffff;
-  font-size: 15px;
+  font-size: 12px;
 }
-
+@media (min-width: 500px) {
+  #seller-list, #categories {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #seller-list table td, #seller-list .btn { {
+    font-size: 15px;
+  }
+}
 @media (min-width: 922px) {
   #book-image {
     margin-left: 80px;
@@ -250,7 +256,11 @@ table tr td:nth-child(3) {
     -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
   }
 }
-/* Modal for Facebook Login */
+
+
+/*
+ * Modal login
+ */
 .modal .modal-dialog .modal-content img {
   padding-right: 3px;
   width: 30px;
@@ -267,8 +277,10 @@ table tr td:nth-child(3) {
   .modal .modal-body .form-horizontal .form-group {
     width: 600px;
   }
+
+
 /* 
- * Modal for Facebook Messenger
+ * Modal messages
  */
 .modal-header {
   background-color:#627BAE;

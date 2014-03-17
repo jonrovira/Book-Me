@@ -14,7 +14,7 @@ a:hover, a:focus {
 	width:  100%;
 	height: 100%;
 	min-height: 100%;
-	background-color: #694489;
+	background-color: #ffffff;
 }
 #container {
 	margin: 0 auto;
@@ -51,10 +51,12 @@ a:hover, a:focus {
 }
 #top-nav form {
   margin-top: 22px;
-  width: calc(100% - 300px);
+  width: calc(100% - 320px);
+  min-width: 240px;
 }
 #top-nav .form-group {
   width: calc(100% - 80px);
+  min-width: 180px;
 }
 #top-nav input {
   width: 100%;
@@ -63,31 +65,6 @@ a:hover, a:focus {
   color: #fff;
   background-color: #85609f;
 }
-#top-nav .navbar-right {
-  margin-top: 13px;
-}
-#top-nav .navbar-right li:nth-child(1) a {
-  padding-left: 0;
-}
-@media (max-width: 768px) {
-  #top-nav .collapse {
-    float: right;
-    border: none;
-    text-align: right;  
-  }
-  #top-nav .collapse form {
-    border: none;
-  }
-  #top-nav .collapse .form-group {
-    min-width: 250px;
-  }
-  #top-nav .collapse .form-group, #top-nav .collapse form button {
-    display: inline-block;
-  }
-  #top-nav .collapse ul  {
-    margin: 0;
-  }
-  #top-nav .collapse ul li a {
-    padding-left: 0;
-  }
+#top-nav .collapse ul {
+  padding-top: 12px;
 }
