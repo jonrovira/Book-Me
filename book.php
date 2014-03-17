@@ -56,13 +56,13 @@
 
 				<div id="content">
 					<div id="book-image">
-						<a class="thumbnail"><img src="images/How-To-Program.jpg" /></a>
+						<a class="thumbnail"><img id="book-pic" /></a>
 					</div>
 					<div id="book-title-info">
-						<h2 id="title">C++ How to Program</h2>
-						<h5 id="edition">5th edition</h5>
-						<h4 id="author">Paul Dietel</h4>
-						<h5 id="classes">EECS-211</h5>
+						<h2 id="title"></h2>
+						<h5 id="edition"></h5>
+						<h4 id="author"></h4>
+						<h5 id="classes"></h5>
 						<h4 id="price-range">Price: $80 - $137	</h4>
 					</div>
 					<table id="categories" class="table">

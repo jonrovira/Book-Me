@@ -72,7 +72,7 @@
 
 			<div id="box-wrapper">
 			<ul class="box">
-				<li id="click-this-one">
+				<li id="211-book">
 					<div class="image">
 					<a href="#"><img src="images/Book 1.jpg"></a>
 					</div>
@@ -83,7 +83,7 @@
 						<br><div class="purple"><a href="#">EECS:211</a></div>
 					</div>
 				</li>
-				<li>
+				<li id="213-book">
 					<div class="image">
 					<a href="#"><img src="images/Book 2.jpg"></a>
 					</div>
@@ -95,7 +95,7 @@
 
 					</div>
 				</li>
-				<li>
+				<li id="311-book">
 					<div class="image">
 					<a href="#"><img src="images/Book 3.jpg"></a>
 					</div>
@@ -107,7 +107,7 @@
 
 					</div>
 				</li>
-				<li>
+				<li id="230-book-c-for-everyone">
 					<div class="image">
 					<a href="#"><img src="images/Book 4.jpg"></a>
 					</div>
@@ -119,7 +119,7 @@
 
 					</div>
 				</li>
-				<li>
+				<li id="230-book-big-c">
 					<div class="image">
 					<a href="#"><img src="images/Book 6.jpg"></a>
 					</div>
@@ -131,7 +131,7 @@
 
 					</div>
 				</li>
-				<li>
+				<li id="230-book-data-abstraction">
 					<div class="image">
 					<a href="#"><img src="images/Book 5.jpg"></a>
 					</div>
