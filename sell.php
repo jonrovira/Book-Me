@@ -42,24 +42,24 @@
 						 	<button type="button" class="btn btn-danger">Department</button>
 						 	<button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown"><span class="caret"></span><span class="sr-only">Toggle Dropdown</span></button>
 						  	<ul class="dropdown-menu" role="menu">
-						    	<li><a href="#">ART</a></li>
-						    	<li><a href="#">DSGN</a></li>
-						    	<li><a href="#">EECS</a></li>
-						    	<li><a href="#">GEN_MUS</a></li>
-						    	<li><a href="#">MUSICOL</a></li>
-						    	<li><a href="#">PHYS</a></li>
+						    	<li><a>ART</a></li>
+						    	<li><a>DSGN</a></li>
+						    	<li><a>EECS</a></li>
+						    	<li><a>GEN_MUS</a></li>
+						    	<li><a>MUSICOL</a></li>
+						    	<li><a>PHYS</a></li>
 						  	</ul>
 						</div>
 						<div class="btn-group">
 						 	<button type="button" class="btn btn-danger">Course Number</button>
 						 	<button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown"><span class="caret"></span><span class="sr-only">Toggle Dropdown</span></button>
 						  	<ul class="dropdown-menu" role="menu">
-						    	<li><a href="#">101</a></li>
-						    	<li><a href="#">111</a></li>
-						    	<li><a href="#">211</a></li>
-						    	<li><a href="#">212</a></li>
-						    	<li><a href="#">213</a></li>
-						    	<li><a href="#">214</a></li>
+						    	<li><a>101</a></li>
+						    	<li><a>111</a></li>
+						    	<li><a>211</a></li>
+						    	<li><a>212</a></li>
+						    	<li><a>213</a></li>
+						    	<li><a>214</a></li>
 						  	</ul>
 						</div><br>
 						<input type="text" placeholder="Title"><br>
@@ -68,10 +68,10 @@
 						<input type="text" placeholder="Price">
 						<div id="condition">
 							<h3>Condition</h3>
-							<input type="radio"><h6>New</h6><br>
-							<input type="radio"><h6>Used - Like New</h6><br>
-							<input type="radio"><h6>Used - Good</h6><br>
-							<input type="radio"><h6>Used - Poor</h6><br><br>
+							<input type="radio" name="condition" value="new"><h6>New</h6><br>
+							<input type="radio" name="condition" value="used-ln"><h6>Used - Like New</h6><br>
+							<input type="radio" name="condition" value="used-g"><h6>Used - Good</h6><br>
+							<input type="radio" name="condition" value="used-p"><h6>Used - Poor</h6><br><br>
 						</div>
 						<button id="submit" type="submit" href="#">Submit post</button>
 					</form>
