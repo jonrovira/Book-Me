@@ -32,7 +32,7 @@
 				<div id="content">						
 					<div class="profile-head">
 						<div id="user-image">
-							<img src="images/willie.jpg" />
+							<img src="images/Willie.jpg" />
 						</div>
 						<div class="user-info">
 							<h1 id="user-id"> Willie Wildcat</h1>
