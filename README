@@ -4,6 +4,14 @@ Current Developers: Jon Rovira, Nevil George
 Original Creators: Jon Rovira, William Chou, Divir Gupta, Christina Kim
 
 
+To Do:
+  - Explore/research popular front-end and back-end tools
+  - Clearly plan out entire interface and functionality
+  	• Sketch it out (Provides proof of iteration)
+  - Decide on back-end implementation to provide the above
+  - Plan next steps
+
+
 Textbook Exchange, originally Book Me, is a platform for Northwestern students, parents, and professors to buy and sell textbooks from one another. TE also allows users to compare with prices of online vendors, such as Amazon.
 
 TE integrates Facebook's API in order to allow users to communicate easily and also to garner a larger audience for the application. 
