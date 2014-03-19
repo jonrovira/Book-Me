@@ -1,3 +1,11 @@
-Creators: Jon Rovira, William Chou, Divir Gupta, Christina Kim
 
-Book Me, now potentially renamed as Textbook Exchange provides a platform for Northwestern students, parents, and professors to buy and sell textbooks from one another and compare prices with online vendors. Textbook Exchange allows users to interface with each other through Facebook using the Facebook API. This functionality allows Textbook Exchange to replace Facebook groups that attempt to solve the same problem but in a significantly more inefficient way.
+
+Current Developers: Jon Rovira, Nevil George
+Original Creators: Jon Rovira, William Chou, Divir Gupta, Christina Kim
+
+
+Textbook Exchange, originally Book Me, is a platform for Northwestern students, parents, and professors to buy and sell textbooks from one another. TE also allows users to compare with prices of online vendors, such as Amazon.
+
+TE integrates Facebook's API in order to allow users to communicate easily and also to garner a larger audience for the application. 
+
+Ultimately, Textbook Exchange will be replacing Facebook groups used by Northwestern students such as "Free & For Sale", "Textbook Exchange", and others. TE provides a cleaner interface than these other options and makes the process of buying and selling one's textbooks significantly more efficient.
